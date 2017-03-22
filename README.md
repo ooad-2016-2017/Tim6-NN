@@ -29,21 +29,21 @@ Klijent ima mogućnost rezervacije termina grupnih vježbi. Sala u  kojoj se izv
 Korisnik može izvršiti uplatu za odgovarajući mjesec putem aplikacije. Nakon sto se korisnik prijavi, prikazuje se dodatna opcija prikaza njegovog profila. U okviru toga, član teretane može izvršiti uplatu.  Nakon što se unesu svi potrebni podaci za plaćanje,  slijedi provjera podataka. Ako su podaci validni onda se šalju eksternom sistemu koji treba da odobri ili odbije transakciju plaćanja.
 
 ## Funkcionalnosti
--mogućnost korištenja teretane
--mogućnost pristupa aplikaciji koja pomaže u postizanju željenih rezultata
--mogućnost odabira programa vježbanja
--plan ishrane prema izabranom programu vježbanja
--prikaz dodatnih informacija i uputa za svaki program
--mogućnost prijave korisnika putem barkoda na članskoj kartici
--mogućnost odabira opcije grupnih treninga i personalnog trenera
--mogućnost plaćanja gotovinom ili karticom
--svi programi nude plan vježbi za svaki dan u sedmici, pri čemu se svaki dan rade vježbe za drugu grupu mišića
--uz svaku vježbu se nalazi detaljan opis iste te video koji pomaže da se vježba izvede na pravilan način
--uz video su priložene fotografije na kojima su označeni mišići koji se aktiviraju prilikom izvođenja odgovarajuće vježbe
--mogućnost plaćanja putem aplikacije
--mogućnost rezervacije termina grupnih vježbi
--mogućnost vođenja bilješki prilikom izvodjenja programa(unos tezine, te mogućih popratnih efekata)
--mogućnost obračunavanja popusta na osnovu određenih kriterija 
+- mogućnost korištenja teretane
+- mogućnost pristupa aplikaciji koja pomaže u postizanju željenih rezultata
+- mogućnost odabira programa vježbanja
+- plan ishrane prema izabranom programu vježbanja
+- prikaz dodatnih informacija i uputa za svaki program
+- mogućnost prijave korisnika putem barkoda na članskoj kartici
+- mogućnost odabira opcije grupnih treninga i personalnog trenera
+- mogućnost plaćanja gotovinom ili karticom
+- svi programi nude plan vježbi za svaki dan u sedmici, pri čemu se svaki dan rade vježbe za drugu grupu mišića
+- uz svaku vježbu se nalazi detaljan opis iste te video koji pomaže da se vježba izvede na pravilan način
+- uz video su priložene fotografije na kojima su označeni mišići koji se aktiviraju prilikom izvođenja odgovarajuće vježbe
+- mogućnost plaćanja putem aplikacije
+- mogućnost rezervacije termina grupnih vježbi
+- mogućnost vođenja bilješki prilikom izvodjenja programa(unos tezine, te mogućih popratnih efekata)
+- mogućnost obračunavanja popusta na osnovu određenih kriterija 
 
 ## Akteri
 1. Korisnik usluga( Klijent, Online klijent)- Korisnik usluga je osoba koja ima mogućnost korištenja teretane (klijent) i pristup aplikaciji gdje  ima svoj program vježbanja (online klijent).
