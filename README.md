@@ -1,6 +1,8 @@
 # PROJEKTNI ZADATAK
 # TEMA: iGym
 
+![](https://scontent.flju2-1.fna.fbcdn.net/v/t35.0-12/17521784_922344261201384_1900944502_o.png?oh=a4e5359c30bff6525c4173a1f1f86aed&oe=58D7F9F2)
+
 1. Hana Helja
 2. Harun Grabus
 3. Lamija Hadžihasanović
