@@ -1,0 +1,18 @@
+1.Princip pojedinaène odgovornosti
+Klasa Teretana sadrži sljedeæe metode: dodajClana, dajClana, naplati, dodajProgramVjezbanja, dajListuClanova. Ovdje æemo napraviti nove dvije klase. Klasa TeretanaNaplata æe se baviti uplatom mjeseène èlanarine, te æe komunicirati sa vanjskim ureðajem(sistemom za uplatu clanarine). Klasa TeretanaProgramVjezbanja æe se baviti dodavanjem novih programa vježbanja, njihovim ažuriranjem ili brisanjem istih.
+Klasa Clan zna kako da rezerviše termin grupnih vježbi i izvrši uplatu. Ovdje trebamo razdvojiti ove poslove, pa æemo napraviti novu klasu ClanUplata koja æe se baviti uplatom mjeseène èlanarine, te æe komunicirati sa sistemom za uplatu.
+Ostale klase zadovoljavaju princip pojedinaène odgovornosti.
+
+2.Otvoreno-zatvoreni princip
+Ovaj princip je zadovoljen. Ukoliko se u buduænosti javi potreba za kreiranjem nekih novih tipova zaposlenika ili korisnika, ta moguænost je otvorena.
+S druge strane klase æe biti implementirane na takav naèin da neæe biti moguæe modificirati podatke sadržane u atributima bez dodatnih potreba i dozvola, tako da je ispoštovana zatvorenost.
+
+
+3.Liskov princip zamjene
+Naš sistem zadovoljava Liskov princip zamjene, jer svaka od izvedenih klasa implementira sve metode koje se nalaze u njihovim roditeljskim klasama.
+
+4.Princip inverzije ovisnosti
+U našem sluèaju ovaj princip je narušen. Potrebno je kreirati interfejs ili abstraktnu klasu iz koje æe potom biti naslijeðena klasa Osoba. Takoðer isto vrijedi i trebalo bi se promijeniti za klase Obrok i Vjezba.
+
+5.Princip izoliranja interfejsa
+Ovaj princip je zadovoljen. Klijent ima na izboru da poziva samo metode koje æe zaista koristiti i nije optereæen bespotrebnim metodama o kojim on direktno ne ovisi.
