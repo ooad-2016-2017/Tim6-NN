@@ -1,0 +1,1417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Author="toshiba" CommentTableSortAscending="false" CommentTableSortColumn="Date Time" Description="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;" DocumentationType="html" ExportedFromDifferentName="false" ExporterVersion="12.2" Name="klasni" TextualAnalysisHighlightOptionCaseSensitive="false" UmlVersion="2.x" Xml_structure="simple">
+	<ProjectInfo>
+		<LogicalView/>
+		<ProjectOptions>
+			<DiagramOptions ActivityDiagramControlFlowDisplayOption="\u0000" ActivityDiagramShowActionCallBehaviorOption="\u0000" ActivityDiagramShowActivityEdgeWeight="true" ActivityDiagramShowObjectNodeType="true" ActivityDiagramShowPartitionHandle="\u0000" AddDataStoresExtEntitiesToDecomposedDFD="\u0002" AlignColumnProperties="true" AllowConfigShowInOutFlowButtonsInDataFlowDiagram="false" AutoGenerateRoleName="false" AutoSetAttributeType="true" AutoSetColumnType="true" AutoSyncRoleName="true" BpdAutoStretchPools="true" BpdConnectGatewayWithFlowObjectInDifferentPool="\u0000" BpdDefaultConnectionPointStyle="\u0001" BpdDefaultConnectorStyle="\u0005" BpdDhowIdOption="\u0000" BpdShowActivitiesTypeIcon="true" BusinessProcessDiagramDefaultLanguage="English" ClassVisibilityStyle="\u0001" ConnectorLabelOrientation="\u0000" CreateOneMessagePerDirection="true" DecisionMergeNodeConnectionPointStyle="\u0000" DefaultAssociationEndNavigable="\u0001" DefaultAssociationEndVisibility="\u0000" DefaultAssociationShowFromMultiplicity="true" DefaultAssociationShowFromRoleName="true" DefaultAssociationShowFromRoleVisibility="true" DefaultAssociationShowStereotypes="true" DefaultAssociationShowToMultiplicity="true" DefaultAssociationShowToRoleName="true" DefaultAssociationShowToRoleVisibility="true" DefaultAttributeMultiplicity="false" DefaultAttributeType="" DefaultAttributeVisibility="\u0001" DefaultClassAttributeMultiplicity="" DefaultClassAttributeMultiplicityOrdered="false" DefaultClassAttributeMultiplicityUnique="true" DefaultClassInterfaceBall="false" DefaultClassVisibility="\u0004" DefaultColumnType="integer(10)" DefaultConnectionPointStyle="\u0000" DefaultConnectorStyle="\u0001" DefaultDiagramBackground="rgb(255, 255, 255)" DefaultDisplayAsRobustnessAnalysisIcon="true" DefaultDisplayAsRobustnessAnalysisIconInSequenceDiagram="true" DefaultDisplayAsStereotypeIcon="false" DefaultFontColor="rgb(0, 0, 0)" DefaultGenDiagramTypeFromScenario="\u0000" DefaultHtmlDocFontColor="rgb(0, 0, 0)" DefaultLineJumps="\u0000" DefaultOperationVisibility="\u0004" DefaultParameterDirection="\u0002" DefaultShowAttributeInitialValue="true" DefaultShowAttributeOption="\u0001" DefaultShowClassMemberStereotype="true" DefaultShowDirection="false" DefaultShowMultiplicityConstraints="false" DefaultShowOperationOption="\u0001" DefaultShowOperationSignature="true" DefaultShowOrderedMultiplicityConstraint="true" DefaultShowOwnedAssociationEndAsAttribute="true" DefaultShowOwner="false" DefaultShowTemplateParameter="true" DefaultShowTypeOption="\u0001" DefaultShowUniqueMultiplicityConstraint="true" DefaultTypeOfSubProcess="\u0000" DefaultWrapClassMember="false" DrawTextAnnotationOpenRectangleFollowConnectorEnd="true" EnableMinimumSize="true" EntityColumnConstraintsPresentation="\u0002" ErdIndexNumOfDigits="-1" ErdIndexPattern="{table_name}" ErdIndexPatternSyncAutomatically="true" ErdManyToManyJoinTableDelimiter="_" ExpandedSubProcessDiagramContent="\u0001" ForeignKeyArrowHeadSize="\u0002" ForeignKeyConnectorEndPointAssociatedColumn="false" ForeignKeyNamePattern="{reference_table_name}{reference_column_name}" ForeignKeyNamePatternCaseHandling="0" ForeignKeyRelationshipPattern="{association_name}" FractionalMetrics="true" GeneralizationSetNotation="\u0001" GraphicAntiAliasing="true" GridDiagramFontSize="14" LineJumpSize="\u0000" ModelElementNameAlignment="\u0004" MultipleLineClassName="\u0001" PaintConnectorThroughLabel="false" PointConnectorEndToCompartmentMember="true" PrimaryKeyConstraintPattern="" PrimaryKeyNamePattern="ID" RenameConstructorAfterRenameClass="\u0000" RenameExtensionPointToFollowExtendUseCase="\u0000" ShapeAutoFitSize="false" ShowActivationsInSequenceDiagram="true" ShowActivityStateNodeCaption="65535" ShowArtifactOption="\u0002" ShowAssociatedDiagramNameOfInteraction="false" ShowAssociationRoleStereotypes="true" ShowAttributeGetterSetter="false" ShowClassEmptyCompartments="false" ShowColumnNullable="true" ShowColumnType="true" ShowColumnUniqueConstraintName="false" ShowComponentOption="\u0002" ShowExtraColumnProperties="true" ShowInOutFlowButtonsInDataFlowDiagram="false" ShowInOutFlowsInSubLevelDiagram="true" ShowMessageOperationSignatureForSequenceAndCommunicationDiagram="true" ShowMessageStereotypeInSequenceAndCommunicationDiagram="true" ShowNumberInCollaborationDiagram="true" ShowNumberInSequenceDiagram="true" ShowPackageNameStyle="\u0000" ShowParameterNameInOperationSignature="true" ShowRowGridLineWithinCompClassDiagram="false" ShowRowGridLineWithinCompERD="true" ShowRowGridLineWithinORMDiagram="true" ShowSchemaNameInERD="true" ShowTransitionTrigger="\u0000" ShowUseCaseExtensionPoint="true" ShowUseCaseID="false" StateShowPrePostConditionAndBodyOfInternalActivities="true" StopTargetLifelineOnCreateDestroyMessage="\u0002" SupportHtmlTaggedValue="false" SupportMultipleLineAttribute="true" SuppressImpliedMultiplicityForAttributeAssociationEnd="false" SyncAssociationNameWithAssociationClass="\u0000" SyncAssociationRoleNameWithReferencedAttributeName="true" SyncDocOfInterfaceToSubClass="\u0000" TextAntiAliasing="true" TextualAnalysisGenerateRequirementTextOption="\u0001" TextualAnalysisHighlightOption="\u0000" UnnamedIndexPattern="{table_name}_{column_name}" UseStateNameTab="false">
+				<DefaultHtmlDocFont Family="Dialog" Size="12" Style="0"/>
+			</DiagramOptions>
+			<GeneralOptions ConfirmSubLevelIdWithDot="true"/>
+			<InstantReverseOptions CalculateGeneralizationAndRealization="false" CreateShapeForParentModelOfDraggedClassPackage="false" ReverseGetterSetter="\u0000" ReverseOperationImplementation="false" ShowPackageForNewDiagram="\u0001" ShowPackageOwner="\u0000"/>
+			<ModelQualityOptions EnableModelQualityChecking="false"/>
+			<ORMOptions DecimalPrecision="19" DecimalScale="0" ExportCommentToDatabase="true" FormattedSQL="false" GenerateAssociationWithAttribute="false" GenerateDiagramFromORMWizards="true" GetterSetterVisibility="\u0000" IdGeneratorType="native" MappingFileColumnOrder="\u0000" NumericToClassType="\u0000" QuoteSQLIdentifier="\u0000" RecreateShapeWhenSync="false" SyncToClassDiagramAttributeName="\u0001" SyncToClassDiagramAttributeNamePrefix="" SyncToClassDiagramAttributeNameSuffix="" SyncToClassDiagramClassName="\u0000" SyncToClassDiagramClassNamePrefix="" SyncToClassDiagramClassNameSuffix="" SyncToERDColumnName="\u0000" SyncToERDColumnNamePrefix="" SyncToERDColumnNameSuffix="" SyncToERDTableName="\u0004" SyncToERDTableNamePrefix="" SyncToERDTableNameSuffix="" SynchronizeDefaultValueToColumn="false" SynchronizeName="\u0002" TablePerSubclassFKMapping="\u0000" UpperCaseSQL="true" UseDefaultDecimal="true" WrappingServletRequest="\u0001"/>
+			<RequirementDiagramOptions DefaultWrapMember="false" ShowAttributes="\u0001" SupportHTMLAttribute="false"/>
+			<StateCodeEngineOptions AutoCreateInitialStateInStateDiagram="true" AutoCreateTransitionMethods="true" DefaultInitialStateLocationX="-1" DefaultInitialStateLocationY="-1" GenerateDebugMessage="false" GenerateSample="true" GenerateTryCatch="true" Language="\u0000" RegenerateTransitionMethods="false" SyncTransitionMethods="true"/>
+			<WarningOptions CreateORMClassInDefaultPackage="true"/>
+			<PORepository>
+				<POUserIDFormats>
+					<POUserIDFormat Digits="2" Guid="false" Id="5KywwtqGAqAADQpO" LastNumericValue="0" ModelType="BPMNElement" Prefix="BP" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="FKywwtqGAqAADQpP" LastNumericValue="0" ModelType="Actor" Prefix="AC" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="lKywwtqGAqAADQpQ" LastNumericValue="0" ModelType="UseCase" Prefix="UC" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="lKywwtqGAqAADQpR" LastNumericValue="0" ModelType="Requirement" Prefix="REQ" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="lKywwtqGAqAADQpS" LastNumericValue="0" ModelType="BusinessRule" Prefix="BR" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="lKywwtqGAqAADQpT" LastNumericValue="0" ModelType="PERTTask" Prefix="" Suffix=""/>
+					<POUserIDFormat Digits="-1" Guid="false" Id="lKywwtqGAqAADQpU" LastNumericValue="0" ModelType="BusinessProcessDiagram" Prefix="" Suffix=""/>
+				</POUserIDFormats>
+			</PORepository>
+		</ProjectOptions>
+	</ProjectInfo>
+	<Models>
+		<DataType Documentation_plain="" Id="zfSwwtqGAqAADQbf" Name="boolean" PmAuthor="toshiba" PmCreateDateTime="2017-04-06T13:36:29.363" PmLastModified="2017-04-06T14:57:45.436" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="bfSwwtqGAqAADQbg" Name="byte" PmAuthor="toshiba" PmCreateDateTime="2017-04-06T13:36:29.366" PmLastModified="2017-04-06T14:57:45.340" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="7fSwwtqGAqAADQbh" Name="char" PmAuthor="toshiba" PmCreateDateTime="2017-04-06T13:36:29.367" PmLastModified="2017-04-06T14:57:45.466" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="HfSwwtqGAqAADQbi" Name="double" PmAuthor="toshiba" PmCreateDateTime="2017-04-06T13:36:29.368" PmLastModified="2017-04-06T14:57:45.442" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="HfSwwtqGAqAADQbj" Name="float" PmAuthor="toshiba" PmCreateDateTime="2017-04-06T13:36:29.368" PmLastModified="2017-04-06T14:57:45.442" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="nfSwwtqGAqAADQbk" Name="int" PmAuthor="toshiba" PmCreateDateTime="2017-04-06T13:36:29.370" PmLastModified="2017-04-06T14:57:45.370" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="XfSwwtqGAqAADQbl" Name="long" PmAuthor="toshiba" PmCreateDateTime="2017-04-06T13:36:29.370" PmLastModified="2017-04-06T14:57:45.482" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="3fSwwtqGAqAADQbm" Name="short" PmAuthor="toshiba" PmCreateDateTime="2017-04-06T13:36:29.371" PmLastModified="2017-04-06T14:57:45.453" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="PfSwwtqGAqAADQbn" Name="void" PmAuthor="toshiba" PmCreateDateTime="2017-04-06T13:36:29.372" PmLastModified="2017-04-06T14:57:45.463" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="PfSwwtqGAqAADQbo" Name="string" PmAuthor="toshiba" PmCreateDateTime="2017-04-06T13:36:29.372" PmLastModified="2017-04-06T14:57:45.463" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="JQx4wtqGAqAADQpi" Leaf="false" Name="Teretana" PmAuthor="toshiba" PmCreateDateTime="2017-04-06T13:55:03.716" PmLastModified="2017-05-14T16:15:20.985" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="cnniItqGAqAAaQkp" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="osobe" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:19:55.982" PmLastModified="2017-04-06T20:14:08.779" QualityScore="-1" ReadOnly="false" Scope="instance" Type="List" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<TemplateTypeBindInfo>
+						<TemplateTypeBindInfo BindedType="List" Documentation_plain="" Id="lpieItqGAqAAaQtf" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:13:58.761" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Details>
+								<TemplateTypeBindDetails Documentation_plain="" Id="jpieItqGAqAAaQtg" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:13:58.769" QualityScore="-1" UserIDLastNumericValue="0" Wildcard="Non Wildcard">
+									<Arguments>
+										<TemplateTypeBindInfo Documentation_plain="" Id="zpieItqGAqAAaQth" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:13:58.771" QualityScore="-1" UserIDLastNumericValue="0">
+											<BindedType>
+												<Class Idref="NqGEwtqGAqAADQqs" Name="Osoba"/>
+											</BindedType>
+										</TemplateTypeBindInfo>
+									</Arguments>
+								</TemplateTypeBindDetails>
+							</Details>
+						</TemplateTypeBindInfo>
+					</TemplateTypeBindInfo>
+				</Attribute>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="lDoSItqGAqAAaQkt" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="programiVjezbanja" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:20:44.585" PmLastModified="2017-04-06T20:14:49.163" QualityScore="-1" ReadOnly="false" Scope="instance" Type="List" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<TemplateTypeBindInfo>
+						<TemplateTypeBindInfo BindedType="List" Documentation_plain="" Id=".O2eItqGAqAAaQtn" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:14:39.135" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Details>
+								<TemplateTypeBindDetails Documentation_plain="" Id="pO2eItqGAqAAaQto" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:14:39.141" QualityScore="-1" UserIDLastNumericValue="0" Wildcard="Non Wildcard">
+									<Arguments>
+										<TemplateTypeBindInfo Documentation_plain="" Id="ZO2eItqGAqAAaQtp" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:14:39.142" QualityScore="-1" UserIDLastNumericValue="0">
+											<BindedType>
+												<Class Idref="82MEwtqGAqAADQqR" Name="ProgramVjezbanja"/>
+											</BindedType>
+										</TemplateTypeBindInfo>
+									</Arguments>
+								</TemplateTypeBindDetails>
+							</Details>
+						</TemplateTypeBindInfo>
+					</TemplateTypeBindInfo>
+				</Attribute>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="RS8SItqGAqAAaQk1" Leaf="false" Name="dodajClana" Ordered="false" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:21:23.619" PmLastModified="2017-04-06T19:21:52.824" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="PfSwwtqGAqAADQbn" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="2PySItqGAqAAaQk4" Multiplicity="Unspecified" Name="clan" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:21:42.683" PmLastModified="2017-04-06T19:21:52.824" QualityScore="-1" Type="Clan" TypeModifier="" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="XPySItqGAqAAaQk6" Leaf="false" Name="dajClana" Ordered="false" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:21:42.714" PmLastModified="2017-04-06T20:25:40.856" QualityScore="-1" Query="false" ReturnType="Clan" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="9QWSItqGAqAAaQk9" Multiplicity="Unspecified" Name="ime" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:22:07.663" PmLastModified="2017-04-06T20:25:40.856" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Type>
+								<DataType Idref="PfSwwtqGAqAADQbo" Name="string"/>
+							</Type>
+						</Parameter>
+					</ModelChildren>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="jAcBItqGAqAAaQuG" Leaf="false" Name="dajListuClanova" Ordered="false" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:22:28.401" PmLastModified="2017-04-06T20:25:54.557" QualityScore="-1" Query="false" ReturnType="List" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<TemplateTypeBindInfo>
+						<TemplateTypeBindInfo BindedType="List" Documentation_plain="" Id="WnvBItqGAqAAaQul" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:25:44.538" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Details>
+								<TemplateTypeBindDetails Documentation_plain="" Id=".nvBItqGAqAAaQum" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:25:44.543" QualityScore="-1" UserIDLastNumericValue="0" Wildcard="Non Wildcard">
+									<Arguments>
+										<TemplateTypeBindInfo Documentation_plain="" Id="BnvBItqGAqAAaQun" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:25:44.544" QualityScore="-1" UserIDLastNumericValue="0">
+											<BindedType>
+												<Class Idref="K9F4wtqGAqAADQp0" Name="Clan"/>
+											</BindedType>
+										</TemplateTypeBindInfo>
+									</Arguments>
+								</TemplateTypeBindDetails>
+							</Details>
+						</TemplateTypeBindInfo>
+					</TemplateTypeBindInfo>
+				</Operation>
+			</ModelChildren>
+			<MasterView>
+				<Class Idref="uQx4wtqGAqAADQph" Name="Teretana"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="WVZ4wtqGAqAADQpr" Leaf="false" Name="Zaposlenik" PmAuthor="toshiba" PmCreateDateTime="2017-04-06T13:55:18.554" PmLastModified="2017-05-14T16:14:06.165" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<FromSimpleRelationships>
+				<Generalization Idref="5FdEotqGAqAAaQ1f" Name=""/>
+			</FromSimpleRelationships>
+			<ToSimpleRelationships>
+				<Generalization Idref="OHS0wtqGAqAADQrp" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<Class Idref="mVZ4wtqGAqAADQpq" Name="Zaposlenik"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="K9F4wtqGAqAADQp0" Leaf="false" Name="Clan" PmAuthor="toshiba" PmCreateDateTime="2017-04-06T13:55:27.060" PmLastModified="2017-05-14T16:10:09.447" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="YO3cItqGAqAAaQj7" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="korisnickoIme" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:06:55.878" PmLastModified="2017-04-06T19:07:18.701" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="PfSwwtqGAqAADQbo" Name="string"/>
+					</Type>
+				</Attribute>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="l8vcItqGAqAAaQj_" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="sifra" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:07:03.273" PmLastModified="2017-04-06T19:07:18.701" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="PfSwwtqGAqAADQbo" Name="string"/>
+					</Type>
+				</Attribute>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="fxfcItqGAqAAaQkD" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="registracijskiBroj" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:07:08.670" PmLastModified="2017-04-06T19:10:24.858" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="nfSwwtqGAqAADQbk" Name="int"/>
+					</Type>
+				</Attribute>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="pC8RItqGAqAAaQu5" Leaf="false" Name="rezervisiTerminVjezbi" Ordered="false" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:31:17.797" PmLastModified="2017-04-06T20:32:13.848" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="PfSwwtqGAqAADQbn" Name="void"/>
+					</ReturnType>
+				</Operation>
+			</ModelChildren>
+			<ToSimpleRelationships>
+				<Generalization Idref="9RM0wtqGAqAADQrV" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<Class Idref="K9F4wtqGAqAADQpz" Name="Clan"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="82MEwtqGAqAADQqR" Leaf="false" Name="ProgramVjezbanja" PmAuthor="toshiba" PmCreateDateTime="2017-04-06T13:57:53.231" PmLastModified="2017-05-14T16:10:09.451" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="z1EaItqGAqAAaQo6" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="vjezbe" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:38:25.139" PmLastModified="2017-04-06T20:03:38.265" QualityScore="-1" ReadOnly="false" Scope="instance" Type="List" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<TemplateTypeBindInfo>
+						<TemplateTypeBindInfo BindedType="List" Documentation_plain="" Id="El72ItqGAqAAaQsT" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:03:28.200" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Details>
+								<TemplateTypeBindDetails Documentation_plain="" Id="bl72ItqGAqAAaQsV" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:03:28.246" QualityScore="-1" UserIDLastNumericValue="0" Wildcard="Non Wildcard">
+									<Arguments>
+										<TemplateTypeBindInfo Documentation_plain="" Id="nl72ItqGAqAAaQsW" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:03:28.249" QualityScore="-1" UserIDLastNumericValue="0">
+											<BindedType>
+												<Class Idref="1qNmItqGAqAAaQpl" Name="Vjezba"/>
+											</BindedType>
+										</TemplateTypeBindInfo>
+									</Arguments>
+								</TemplateTypeBindDetails>
+							</Details>
+						</TemplateTypeBindInfo>
+					</TemplateTypeBindInfo>
+				</Attribute>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="Pnz2ItqGAqAAaQsH" Leaf="false" Name="dodajVjezbu" Ordered="false" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:03:12.892" PmLastModified="2017-04-06T20:04:28.667" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="PfSwwtqGAqAADQbn" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="HQQOItqGAqAAaQsu" Multiplicity="Unspecified" Name="vjezba" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:04:10.808" PmLastModified="2017-04-06T20:04:28.667" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Type>
+								<Class Idref="1qNmItqGAqAAaQpl" Name="Vjezba"/>
+							</Type>
+						</Parameter>
+					</ModelChildren>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="XPwOItqGAqAAaQs8" Leaf="false" Name="obrisiVjezbu" Ordered="false" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:04:18.618" PmLastModified="2017-04-06T20:04:41.644" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="PfSwwtqGAqAADQbn" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="x44OItqGAqAAaQs_" Multiplicity="Unspecified" Name="vjezba" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:04:31.587" PmLastModified="2017-04-06T20:04:41.644" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Type>
+								<Class Idref="1qNmItqGAqAAaQpl" Name="Vjezba"/>
+							</Type>
+						</Parameter>
+					</ModelChildren>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="P44OItqGAqAAaQtA" Leaf="false" Name="dajProgramVjezbanja" Ordered="false" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:04:31.612" PmLastModified="2017-04-06T20:05:04.280" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="PfSwwtqGAqAADQbn" Name="void"/>
+					</ReturnType>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="02UOItqGAqAAaQtD" Leaf="false" Name="dajPlanIshrane" Ordered="false" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:04:45.131" PmLastModified="2017-04-06T20:05:04.280" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="PfSwwtqGAqAADQbn" Name="void"/>
+					</ReturnType>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="2IES4DqGAqACBGXy" Leaf="false" Name="dajSavjete" Ordered="false" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:06:51.163" PmLastModified="2017-05-14T16:07:32.485" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="PfSwwtqGAqAADQbn" Name="void"/>
+					</ReturnType>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="QS0S4DqGAqACBGYJ" Leaf="false" Name="dajZabiljeske" Ordered="false" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:07:04.322" PmLastModified="2017-05-14T16:07:32.485" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="PfSwwtqGAqAADQbn" Name="void"/>
+					</ReturnType>
+				</Operation>
+			</ModelChildren>
+			<MasterView>
+				<Class Idref="82MEwtqGAqAADQqQ" Name="ProgramVjezbanja"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="NqGEwtqGAqAADQqs" Leaf="false" Name="Osoba" PmAuthor="toshiba" PmCreateDateTime="2017-04-06T13:58:42.028" PmLastModified="2017-04-06T19:27:17.884" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="u9ecItqGAqAAaQiu" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="ime" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:04:58.333" PmLastModified="2017-04-06T19:05:17.915" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="PfSwwtqGAqAADQbo" Name="string"/>
+					</Type>
+				</Attribute>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="H7.cItqGAqAAaQi7" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="prezime" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:05:02.968" PmLastModified="2017-04-06T19:05:17.916" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="PfSwwtqGAqAADQbo" Name="string"/>
+					</Type>
+				</Attribute>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="EPBcItqGAqAAaQi_" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="datumRodjenja" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:05:07.336" PmLastModified="2017-04-06T19:05:28.219" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="PfSwwtqGAqAADQbo" Name="string"/>
+					</Type>
+				</Attribute>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="qpxcItqGAqAAaQjF" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="adresa" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:05:18.165" PmLastModified="2017-04-06T19:05:39.859" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="PfSwwtqGAqAADQbo" Name="string"/>
+					</Type>
+				</Attribute>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="A2ZcItqGAqAAaQjJ" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="kontaktTelefon" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:05:29.792" PmLastModified="2017-04-06T19:06:00.223" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="PfSwwtqGAqAADQbo" Name="string"/>
+					</Type>
+				</Attribute>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="CglcItqGAqAAaQjN" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="email" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:05:40.432" PmLastModified="2017-04-06T19:06:00.223" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="PfSwwtqGAqAADQbo" Name="string"/>
+					</Type>
+				</Attribute>
+			</ModelChildren>
+			<FromSimpleRelationships>
+				<Generalization Idref="9RM0wtqGAqAADQrV" Name=""/>
+				<Generalization Idref="OHS0wtqGAqAADQrp" Name=""/>
+			</FromSimpleRelationships>
+			<MasterView>
+				<Class Idref="1qGEwtqGAqAADQqr" Name="Osoba"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="1qNmItqGAqAAaQpl" Leaf="false" Name="Vjezba" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:53:57.611" PmLastModified="2017-05-14T16:10:09.449" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="vo9WItqGAqAAaQrs" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="naziv" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:58:31.037" PmLastModified="2017-04-06T19:58:44.877" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="PfSwwtqGAqAADQbo" Name="string"/>
+					</Type>
+				</Attribute>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="gxzWItqGAqAAaQr8" Leaf="false" Name="dajVjezbu" Ordered="false" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:58:49.281" PmLastModified="2017-04-06T19:59:29.007" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="PfSwwtqGAqAADQbn" Name="void"/>
+					</ReturnType>
+				</Operation>
+			</ModelChildren>
+			<MasterView>
+				<Class Idref="lqNmItqGAqAAaQpk" Name="Vjezba"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="XS8WItqGAqAAaQqy" Leaf="false" Name="PlanIshrane" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:56:20.794" PmLastModified="2017-05-14T16:14:06.184" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="zKKWItqGAqAAaQrD" Leaf="false" Name="dodajObrok" Ordered="false" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:56:41.395" PmLastModified="2017-04-06T20:41:20.162" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="PfSwwtqGAqAADQbn" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="UgOWItqGAqAAaQrG" Multiplicity="Unspecified" Name="obrok" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:57:12.906" PmLastModified="2017-04-06T20:41:20.162" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Type>
+								<Class Idref="2IixItqGAqAAaQwL" Name="Obrok"/>
+							</Type>
+						</Parameter>
+					</ModelChildren>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="WgOWItqGAqAAaQrH" Leaf="false" Name="obrisiObrok" Ordered="false" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:57:12.922" PmLastModified="2017-04-06T20:41:20.162" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="PfSwwtqGAqAADQbn" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="is5WItqGAqAAaQrW" Multiplicity="Unspecified" Name="obrok" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:57:58.737" PmLastModified="2017-04-06T20:41:20.162" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Type>
+								<Class Idref="2IixItqGAqAAaQwL" Name="Obrok"/>
+							</Type>
+						</Parameter>
+					</ModelChildren>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="CMDxItqGAqAAaQw1" Leaf="false" Name="dajPlanIshrane" Ordered="false" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:37:54.832" PmLastModified="2017-04-06T20:38:10.868" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="PfSwwtqGAqAADQbn" Name="void"/>
+					</ReturnType>
+				</Operation>
+			</ModelChildren>
+			<MasterView>
+				<Class Idref="nS8WItqGAqAAaQqx" Name="PlanIshrane"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="2IixItqGAqAAaQwL" Leaf="false" Name="Obrok" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:35:47.355" PmLastModified="2017-05-14T16:10:09.428" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="Lg6xItqGAqAAaQwo" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="naziv" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:36:11.764" PmLastModified="2017-04-06T20:36:47.121" QualityScore="-1" ReadOnly="false" Scope="instance" Type="String" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true"/>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="6E2xItqGAqAAaQwr" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="opis" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:36:28.567" PmLastModified="2017-04-06T20:36:47.121" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="PfSwwtqGAqAADQbo" Name="string"/>
+					</Type>
+				</Attribute>
+			</ModelChildren>
+			<MasterView>
+				<Class Idref="WIixItqGAqAAaQwK" Name="Obrok"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="sRdEotqGAqAAaQ1b" Leaf="false" Name="Trener" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T23:19:27.373" PmLastModified="2017-04-06T23:23:07.091" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="j6zEotqGAqAAaQ1q" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="programi" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T23:19:47.185" PmLastModified="2017-04-06T23:21:05.425" QualityScore="-1" ReadOnly="false" Scope="instance" Type="List" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<TemplateTypeBindInfo>
+						<TemplateTypeBindInfo BindedType="List" Documentation_plain="" Id="HCwkotqGAqAAaQ19" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T23:20:52.280" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Details>
+								<TemplateTypeBindDetails Documentation_plain="" Id="PCwkotqGAqAAaQ1." Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T23:20:52.284" QualityScore="-1" UserIDLastNumericValue="0" Wildcard="Non Wildcard">
+									<Arguments>
+										<TemplateTypeBindInfo Documentation_plain="" Id="piwkotqGAqAAaQ1_" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T23:20:52.325" QualityScore="-1" UserIDLastNumericValue="0">
+											<BindedType>
+												<Class Idref="82MEwtqGAqAADQqR" Name="ProgramVjezbanja"/>
+											</BindedType>
+										</TemplateTypeBindInfo>
+									</Arguments>
+								</TemplateTypeBindDetails>
+							</Details>
+						</TemplateTypeBindInfo>
+					</TemplateTypeBindInfo>
+				</Attribute>
+			</ModelChildren>
+			<ToSimpleRelationships>
+				<Generalization Idref="5FdEotqGAqAAaQ1f" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<Class Idref="ERdEotqGAqAAaQ1a" Name="Trener"/>
+			</MasterView>
+		</Class>
+		<NOTE Documentation="&lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      Model&#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;" Documentation_plain="Model" Id="3sUw4DqGAqACBAno" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:01:27.803" PmLastModified="2017-05-14T15:01:43.415" QualityScore="-1" UserIDLastNumericValue="0">
+			<MasterView>
+				<NOTE Idref="nsUw4DqGAqACBAnn" Name=""/>
+			</MasterView>
+		</NOTE>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="y_Rw4DqGAqACBAom" Leaf="false" Name="TeretanaNaplata" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:03:09.267" PmLastModified="2017-05-14T15:20:02.703" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="PGVw4DqGAqACBApF" Leaf="false" Name="naplati" Ordered="false" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:03:39.580" PmLastModified="2017-05-14T15:16:19.951" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="PfSwwtqGAqAADQbn" Name="void"/>
+					</ReturnType>
+				</Operation>
+			</ModelChildren>
+			<MasterView>
+				<Class Idref="S_Rw4DqGAqACBAol" Name="TeretanaNaplata"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="po_w4DqGAqACBAp9" Leaf="false" Name="TeretanaProgramVjezbanja" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:05:04.357" PmLastModified="2017-05-14T15:20:02.734" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="R4kI4DqGAqACBAqT" Leaf="false" Name="dodajProgramVjezbanja" Ordered="false" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:05:45.442" PmLastModified="2017-05-14T15:06:19.143" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="PfSwwtqGAqAADQbn" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="b7cI4DqGAqACBAqW" Multiplicity="Unspecified" Name="program" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:06:09.014" PmLastModified="2017-05-14T15:06:19.143" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Type>
+								<Class Idref="82MEwtqGAqAADQqR" Name="ProgramVjezbanja"/>
+							</Type>
+						</Parameter>
+					</ModelChildren>
+				</Operation>
+			</ModelChildren>
+			<MasterView>
+				<Class Idref="Jo_w4DqGAqACBAp8" Name="TeretanaProgramVjezbanja"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="Czt44DqGAqACBAxG" Leaf="false" Name="ClanUplata" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:21:22.128" PmLastModified="2017-05-14T15:57:42.116" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="GqD44DqGAqACBAxK" Leaf="false" Name="izvrsiUplatu" Ordered="false" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:21:32.504" PmLastModified="2017-05-14T15:22:06.149" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="PfSwwtqGAqAADQbn" Name="void"/>
+					</ReturnType>
+				</Operation>
+			</ModelChildren>
+			<MasterView>
+				<Class Idref="czt44DqGAqACBAxF" Name="ClanUplata"/>
+			</MasterView>
+		</Class>
+		<NOTE Documentation="&lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      View Model&#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;" Documentation_plain="View Model" Id="mz1E4DqGAqACBAzW" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:25:36.089" PmLastModified="2017-05-14T15:34:53.677" QualityScore="-1" UserIDLastNumericValue="0">
+			<MasterView>
+				<NOTE Idref="mz1E4DqGAqACBAzV" Name=""/>
+			</MasterView>
+		</NOTE>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="WTdE4DqGAqACBA0a" Leaf="false" Name="PrijavaViewModel" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:25:48.314" PmLastModified="2017-05-14T15:56:34.054" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="mTdE4DqGAqACBA0Z" Name="PrijavaViewModel"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="ID9E4DqGAqACBA0x" Leaf="false" Name="UplateViewModel" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:25:52.260" PmLastModified="2017-05-14T15:57:42.123" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="wD9E4DqGAqACBA0w" Name="UplateViewModel"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="DZDE4DqGAqACBA1F" Leaf="false" Name="SavjetiViewModel" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:25:55.760" PmLastModified="2017-05-14T15:51:38.025" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="9ZDE4DqGAqACBA1E" Name="SavjetiViewModel"/>
+			</MasterView>
+		</Class>
+		<NOTE Documentation="&lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      View&#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;" Documentation_plain="View" Id="lkEk4DqGAqACBA5m" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:27:32.201" PmLastModified="2017-05-14T15:27:45.697" QualityScore="-1" UserIDLastNumericValue="0">
+			<MasterView>
+				<NOTE Idref="lkEk4DqGAqACBA5l" Name=""/>
+			</MasterView>
+		</NOTE>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="BU2k4DqGAqACBA8N" Leaf="false" Name="PrijavaForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:28:50.080" PmLastModified="2017-05-14T15:48:38.885" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref=".U2k4DqGAqACBA8M" Name="PrijavaForma"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="aF2k4DqGAqACBA8Z" Leaf="false" Name="Ishrana-PlanIshraneForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:28:51.990" PmLastModified="2017-05-14T15:51:38.042" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="aF2k4DqGAqACBA8Y" Name="Ishrana-PlanIshraneForma"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="9YOk4DqGAqACBA8n" Leaf="false" Name="Ishrana-receptiForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:28:53.935" PmLastModified="2017-05-14T15:51:37.973" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="9YOk4DqGAqACBA8m" Name="Ishrana-receptiForma"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="pFOk4DqGAqACBA81" Leaf="false" Name="PlanVjezbanjaForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:28:56.101" PmLastModified="2017-05-14T15:53:38.285" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="pFOk4DqGAqACBA80" Name="PlanVjezbanjaForma"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="ppjk4DqGAqACBBDX" Leaf="false" Name="PocetnaUposlenikForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:30:21.925" PmLastModified="2017-05-14T15:51:37.991" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="Jpjk4DqGAqACBBDW" Name="PocetnaUposlenikForma"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="U87k4DqGAqACBBFL" Leaf="false" Name="PrikazVjezbeForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:30:45.066" PmLastModified="2017-05-14T15:54:41.937" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="k87k4DqGAqACBBFK" Name="PrikazVjezbeForma"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="ob3k4DqGAqACBBGF" Leaf="false" Name="ProfilKorisnikaForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:31:03.941" PmLastModified="2017-05-14T15:51:38.013" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="Ib3k4DqGAqACBBGE" Name="ProfilKorisnikaForma"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="U7_k4DqGAqACBBHR" Leaf="false" Name="SavjetiForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:31:20.394" PmLastModified="2017-05-14T15:51:38.029" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="k7_k4DqGAqACBBHQ" Name="SavjetiForma"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="CDgU4DqGAqACBBH7" Leaf="false" Name="UplateForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:31:28.144" PmLastModified="2017-05-14T15:51:38.024" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="CDgU4DqGAqACBBH6" Name="UplateForma"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="F0UU4DqGAqACBBIr" Leaf="false" Name="RegistracijaNovogClanaForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:32:02.664" PmLastModified="2017-05-14T15:54:41.952" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="50UU4DqGAqACBBIq" Name="RegistracijaNovogClanaForma"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="r9MU4DqGAqACBBJ3" Leaf="false" Name="ZabiljeskeForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:32:13.173" PmLastModified="2017-05-14T15:51:38.027" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="L9MU4DqGAqACBBJ2" Name="ZabiljeskeForma"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="liXM4DqGAqACBBTB" Leaf="false" Name="Ishrana-PlanIshraneViewModel" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:44:03.945" PmLastModified="2017-05-14T16:03:35.644" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="ZiXM4DqGAqACBBTA" Name="Ishrana-PlanIshraneViewModel"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="ErXM4DqGAqACBBTV" Leaf="false" Name="ZabiljeskeViewModel" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:44:06.216" PmLastModified="2017-05-14T16:08:06.224" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="4rXM4DqGAqACBBTU" Name="ZabiljeskeViewModel"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="Mq3M4DqGAqACBBTl" Leaf="false" Name="Ishrana-receptiViewModel" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:44:08.268" PmLastModified="2017-05-14T16:04:17.706" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="0q3M4DqGAqACBBTk" Name="Ishrana-receptiViewModel"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="dN8s4DqGAqACBBgt" Leaf="false" Name="ProfilKorisnikaViewModel" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:45:31.694" PmLastModified="2017-05-14T16:10:09.440" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="dN8s4DqGAqACBBgs" Name="ProfilKorisnikaViewModel"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="5qys4DqGAqACBBjZ" Leaf="false" Name="RegistracijaNovogClanaViewModel" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:45:46.599" PmLastModified="2017-05-14T16:15:20.971" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="Zqys4DqGAqACBBjY" Name="RegistracijaNovogClanaViewModel"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="IZms4DqGAqACBBn8" Leaf="false" Name="PrikazVjezbeViewModel" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:46:12.228" PmLastModified="2017-05-14T16:08:06.236" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="wZms4DqGAqACBBn7" Name="PrikazVjezbeViewModel"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="g8Bs4DqGAqACBBtM" Leaf="false" Name="PlanVjezbanjaViewModel" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:46:39.425" PmLastModified="2017-05-14T16:05:16.940" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="A8Bs4DqGAqACBBtL" Name="PlanVjezbanjaViewModel"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="xRJs4DqGAqACBBvq" Leaf="false" Name="PocetnaUposlenikViewModel" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:46:57.059" PmLastModified="2017-05-14T16:14:06.191" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Class Idref="xRJs4DqGAqACBBvp" Name="PocetnaUposlenikViewModel"/>
+			</MasterView>
+		</Class>
+		<Generalization ConnectToCodeModel="1" Documentation_plain="" From="NqGEwtqGAqAADQqs" Id="9RM0wtqGAqAADQrV" PmAuthor="toshiba" PmCreateDateTime="2017-04-06T14:11:00.143" PmLastModified="2017-04-06T14:57:45.369" QualityScore="-1" Substitutable="false" To="K9F4wtqGAqAADQp0" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<MasterView>
+				<Generalization Idref="7RM0wtqGAqAADQrW"/>
+			</MasterView>
+		</Generalization>
+		<Generalization ConnectToCodeModel="1" Documentation_plain="" From="NqGEwtqGAqAADQqs" Id="OHS0wtqGAqAADQrp" PmAuthor="toshiba" PmCreateDateTime="2017-04-06T14:11:26.108" PmLastModified="2017-04-06T14:57:45.337" QualityScore="-1" Substitutable="false" To="WVZ4wtqGAqAADQpr" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<MasterView>
+				<Generalization Idref="pHS0wtqGAqAADQrq"/>
+			</MasterView>
+		</Generalization>
+		<Generalization ConnectToCodeModel="1" Documentation_plain="" From="WVZ4wtqGAqAADQpr" Id="5FdEotqGAqAAaQ1f" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T23:19:27.783" PmLastModified="2017-04-06T23:19:57.261" QualityScore="-1" Substitutable="false" To="sRdEotqGAqAAaQ1b" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<MasterView>
+				<Generalization Idref="ENdEotqGAqAAaQ1g"/>
+			</MasterView>
+		</Generalization>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="JQx4wtqGAqAADQpi" EndRelationshipToMetaModelElement="NqGEwtqGAqAADQqs" Id="8FRyItqGAqAAaQmM" Leaf="false" Name="1" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:27:04.975" PmLastModified="2017-04-06T19:29:45.028" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="Shared" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="JQx4wtqGAqAADQpi" Id="8FRyItqGAqAAaQmN" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:27:04.975" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="8FRyItqGAqAAaQmO" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:27:04.975" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="JQx4wtqGAqAADQpi" Name="Teretana"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="NqGEwtqGAqAADQqs" Id="8FRyItqGAqAAaQmP" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Name="0..*" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:27:04.975" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="8FRyItqGAqAAaQmQ" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:27:04.975" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="NqGEwtqGAqAADQqs" Name="Osoba"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="d1RyItqGAqAAaQmR" Name="1"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="JQx4wtqGAqAADQpi" EndRelationshipToMetaModelElement="82MEwtqGAqAADQqR" Id="t_ZyItqGAqAAaQmY" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:27:22.861" PmLastModified="2017-04-06T19:29:43.063" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="Shared" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="JQx4wtqGAqAADQpi" Id="t_ZyItqGAqAAaQmZ" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Name="1" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:27:22.861" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="t_ZyItqGAqAAaQma" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:27:22.861" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="JQx4wtqGAqAADQpi" Name="Teretana"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="82MEwtqGAqAADQqR" Id="t_ZyItqGAqAAaQmb" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Name="0..*" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:27:22.861" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="t_ZyItqGAqAAaQmc" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:27:22.861" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="82MEwtqGAqAADQqR" Name="ProgramVjezbanja"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="iQ5yItqGAqAAaQmd"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="82MEwtqGAqAADQqR" EndRelationshipToMetaModelElement="1qNmItqGAqAAaQpl" Id="XWNmItqGAqAAaQpp" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:53:57.946" PmLastModified="2017-04-06T20:34:02.575" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="Shared" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="82MEwtqGAqAADQqR" Id="XWNmItqGAqAAaQpq" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Name="1" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:53:57.946" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="XWNmItqGAqAAaQpr" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:53:57.946" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="82MEwtqGAqAADQqR" Name="ProgramVjezbanja"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="1qNmItqGAqAAaQpl" Id="XWNmItqGAqAAaQps" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Name="0..*" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:53:57.946" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="XWNmItqGAqAAaQpt" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:53:57.946" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="1qNmItqGAqAAaQpl" Name="Vjezba"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="WuNmItqGAqAAaQpu"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="82MEwtqGAqAADQqR" EndRelationshipToMetaModelElement="XS8WItqGAqAAaQqy" Id="Y68WItqGAqAAaQq2" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:56:21.062" PmLastModified="2017-04-06T20:34:02.582" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="Shared" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="82MEwtqGAqAADQqR" Id="Y68WItqGAqAAaQq3" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Name="1" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:56:21.062" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="Y68WItqGAqAAaQq4" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:56:21.062" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="82MEwtqGAqAADQqR" Name="ProgramVjezbanja"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="XS8WItqGAqAAaQqy" Id="468WItqGAqAAaQq5" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Name="0..*" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:56:21.063" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="468WItqGAqAAaQq6" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T19:56:21.063" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="XS8WItqGAqAAaQqy" Name="PlanIshrane"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="rm8WItqGAqAAaQq7"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="XS8WItqGAqAAaQqy" EndRelationshipToMetaModelElement="2IixItqGAqAAaQwL" Id="lkixItqGAqAAaQwP" Leaf="false" Name="1" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:35:47.689" PmLastModified="2017-04-06T20:36:21.799" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="Composited" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="XS8WItqGAqAAaQqy" Id="lkixItqGAqAAaQwQ" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:35:47.689" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="VkixItqGAqAAaQwR" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:35:47.690" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="XS8WItqGAqAAaQqy" Name="PlanIshrane"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="2IixItqGAqAAaQwL" Id="VkixItqGAqAAaQwS" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:35:47.690" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="VkixItqGAqAAaQwT" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T20:35:47.690" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="2IixItqGAqAAaQwL" Name="Obrok"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="mMixItqGAqAAaQwU" Name="1"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="sRdEotqGAqAAaQ1b" EndRelationshipToMetaModelElement="82MEwtqGAqAADQqR" Id="aWukotqGAqAAaQ2r" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T23:22:39.382" PmLastModified="2017-04-06T23:23:39.562" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="sRdEotqGAqAAaQ1b" Id="aWukotqGAqAAaQ2s" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Name="*" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T23:22:39.382" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="aWukotqGAqAAaQ2t" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T23:22:39.382" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="sRdEotqGAqAAaQ1b" Name="Trener"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="82MEwtqGAqAADQqR" Id="aWukotqGAqAAaQ2u" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Name="*" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T23:22:39.382" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="aWukotqGAqAAaQ2v" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-04-06T23:22:39.382" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="82MEwtqGAqAADQqR" Name="ProgramVjezbanja"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="dOukotqGAqAAaQ2w"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="JQx4wtqGAqAADQpi" EndRelationshipToMetaModelElement="y_Rw4DqGAqACBAom" Id="lOK44DqGAqACBAwq" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:19:38.281" PmLastModified="2017-05-14T15:20:02.703" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="JQx4wtqGAqAADQpi" Id="lOK44DqGAqACBAwr" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:19:38.281" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="lOK44DqGAqACBAws" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:19:38.281" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="JQx4wtqGAqAADQpi" Name="Teretana"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="y_Rw4DqGAqACBAom" Id="lOK44DqGAqACBAwt" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:19:38.281" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="lOK44DqGAqACBAwu" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:19:38.281" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="y_Rw4DqGAqACBAom" Name="TeretanaNaplata"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="B.K44DqGAqACBAwv"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="JQx4wtqGAqAADQpi" EndRelationshipToMetaModelElement="po_w4DqGAqACBAp9" Id="1Za44DqGAqACBAw2" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:19:47.115" PmLastModified="2017-05-14T15:20:02.722" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="JQx4wtqGAqAADQpi" Id="1Za44DqGAqACBAw3" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:19:47.115" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="1Za44DqGAqACBAw4" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:19:47.115" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="JQx4wtqGAqAADQpi" Name="Teretana"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="po_w4DqGAqACBAp9" Id="1Za44DqGAqACBAw5" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:19:47.115" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="1Za44DqGAqACBAw6" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:19:47.115" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="po_w4DqGAqACBAp9" Name="TeretanaProgramVjezbanja"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="jFa44DqGAqACBAw7"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="K9F4wtqGAqAADQp0" EndRelationshipToMetaModelElement="Czt44DqGAqACBAxG" Id="G_H44DqGAqACBAxf" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:22:07.960" PmLastModified="2017-05-14T15:22:18.749" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="K9F4wtqGAqAADQp0" Id="G_H44DqGAqACBAxg" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:22:07.960" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="G_H44DqGAqACBAxh" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:22:07.960" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="K9F4wtqGAqAADQp0" Name="Clan"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="Czt44DqGAqACBAxG" Id="G_H44DqGAqACBAxi" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:22:07.960" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="G_H44DqGAqACBAxj" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:22:07.960" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="Czt44DqGAqACBAxG" Name="ClanUplata"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="ywn44DqGAqACBAxk"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="WTdE4DqGAqACBA0a" EndRelationshipToMetaModelElement="BU2k4DqGAqACBA8N" Id="fVXs4DqGAqACBB_6" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:48:27.710" PmLastModified="2017-05-14T15:48:38.885" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="WTdE4DqGAqACBA0a" Id="fVXs4DqGAqACBB_7" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:48:27.710" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="_VXs4DqGAqACBB_8" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:48:27.711" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="WTdE4DqGAqACBA0a" Name="PrijavaViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="BU2k4DqGAqACBA8N" Id="_VXs4DqGAqACBB_9" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:48:27.711" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="_VXs4DqGAqACBB_." Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:48:27.711" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="BU2k4DqGAqACBA8N" Name="PrijavaForma"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="GtXs4DqGAqACBB__"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="ID9E4DqGAqACBA0x" EndRelationshipToMetaModelElement="CDgU4DqGAqACBBH7" Id="PRcc4DqGAqACBCMD" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:49:49.116" PmLastModified="2017-05-14T15:51:38.015" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="ID9E4DqGAqACBA0x" Id="PRcc4DqGAqACBCME" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:49:49.116" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="PRcc4DqGAqACBCMF" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:49:49.116" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="ID9E4DqGAqACBA0x" Name="UplateViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="CDgU4DqGAqACBBH7" Id="PRcc4DqGAqACBCMG" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:49:49.116" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="PRcc4DqGAqACBCMH" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:49:49.116" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="CDgU4DqGAqACBBH7" Name="UplateForma"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="3Jcc4DqGAqACBCMI"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="DZDE4DqGAqACBA1F" EndRelationshipToMetaModelElement="U7_k4DqGAqACBBHR" Id="1NCc4DqGAqACBCOJ" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:49:57.931" PmLastModified="2017-05-14T15:51:38.021" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="DZDE4DqGAqACBA1F" Id="1NCc4DqGAqACBCOK" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:49:57.931" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="1NCc4DqGAqACBCOL" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:49:57.931" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="DZDE4DqGAqACBA1F" Name="SavjetiViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="U7_k4DqGAqACBBHR" Id="1NCc4DqGAqACBCOM" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:49:57.931" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="1NCc4DqGAqACBCON" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:49:57.931" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="U7_k4DqGAqACBBHR" Name="SavjetiForma"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="a9Cc4DqGAqACBCOO"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="ErXM4DqGAqACBBTV" EndRelationshipToMetaModelElement="r9MU4DqGAqACBBJ3" Id="KFyc4DqGAqACBCSi" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:09.940" PmLastModified="2017-05-14T15:51:38.010" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="ErXM4DqGAqACBBTV" Id="KFyc4DqGAqACBCSj" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:09.940" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="KFyc4DqGAqACBCSk" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:09.940" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="ErXM4DqGAqACBBTV" Name="ZabiljeskeViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="r9MU4DqGAqACBBJ3" Id="KFyc4DqGAqACBCSl" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:09.940" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="KFyc4DqGAqACBCSm" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:09.940" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="r9MU4DqGAqACBBJ3" Name="ZabiljeskeForma"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="y1yc4DqGAqACBCSn"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="liXM4DqGAqACBBTB" EndRelationshipToMetaModelElement="aF2k4DqGAqACBA8Z" Id="G3Kc4DqGAqACBCUk" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:15.257" PmLastModified="2017-05-14T15:51:38.030" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="liXM4DqGAqACBBTB" Id="m3Kc4DqGAqACBCUl" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:15.257" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="m3Kc4DqGAqACBCUm" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:15.257" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="liXM4DqGAqACBBTB" Name="Ishrana-PlanIshraneViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="aF2k4DqGAqACBA8Z" Id="m3Kc4DqGAqACBCUn" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:15.257" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="m3Kc4DqGAqACBCUo" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:15.257" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="aF2k4DqGAqACBA8Z" Name="Ishrana-PlanIshraneForma"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="ufKc4DqGAqACBCUp"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="dN8s4DqGAqACBBgt" EndRelationshipToMetaModelElement="ob3k4DqGAqACBBGF" Id="c16c4DqGAqACBCX6" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:26.510" PmLastModified="2017-05-14T15:51:38.004" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="dN8s4DqGAqACBBgt" Id="c16c4DqGAqACBCX7" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:26.510" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="c16c4DqGAqACBCX8" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:26.510" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="dN8s4DqGAqACBBgt" Name="ProfilKorisnikaViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="ob3k4DqGAqACBBGF" Id="c16c4DqGAqACBCX9" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:26.510" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="c16c4DqGAqACBCX." Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:26.510" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="ob3k4DqGAqACBBGF" Name="ProfilKorisnikaForma"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="Sd6c4DqGAqACBCX_"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="Mq3M4DqGAqACBBTl" EndRelationshipToMetaModelElement="9YOk4DqGAqACBA8n" Id="INGc4DqGAqACBCZj" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:30.660" PmLastModified="2017-05-14T15:51:37.977" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="Mq3M4DqGAqACBBTl" Id="INGc4DqGAqACBCZk" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:30.660" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="INGc4DqGAqACBCZl" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:30.660" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="Mq3M4DqGAqACBBTl" Name="Ishrana-receptiViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="9YOk4DqGAqACBA8n" Id="INGc4DqGAqACBCZm" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:30.660" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="INGc4DqGAqACBCZn" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:30.660" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="9YOk4DqGAqACBA8n" Name="Ishrana-receptiForma"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="bdGc4DqGAqACBCZo"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="xRJs4DqGAqACBBvq" EndRelationshipToMetaModelElement="ppjk4DqGAqACBBDX" Id="R5Wc4DqGAqACBCdi" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:38.562" PmLastModified="2017-05-14T15:51:37.995" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="xRJs4DqGAqACBBvq" Id="R5Wc4DqGAqACBCdj" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:38.562" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="x5Wc4DqGAqACBCdk" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:38.563" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="xRJs4DqGAqACBBvq" Name="PocetnaUposlenikViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="ppjk4DqGAqACBBDX" Id="x5Wc4DqGAqACBCdl" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:38.563" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="x5Wc4DqGAqACBCdm" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:38.563" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="ppjk4DqGAqACBBDX" Name="PocetnaUposlenikForma"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="oVWc4DqGAqACBCdn"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="g8Bs4DqGAqACBBtM" EndRelationshipToMetaModelElement="pFOk4DqGAqACBA81" Id="4e_c4DqGAqACBDLv" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:53:09.511" PmLastModified="2017-05-14T15:53:38.273" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="g8Bs4DqGAqACBBtM" Id="4e_c4DqGAqACBDLw" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:53:09.511" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="4e_c4DqGAqACBDLx" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:53:09.511" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="g8Bs4DqGAqACBBtM" Name="PlanVjezbanjaViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="pFOk4DqGAqACBA81" Id="4e_c4DqGAqACBDLy" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:53:09.511" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="4e_c4DqGAqACBDLz" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:53:09.511" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="pFOk4DqGAqACBA81" Name="PlanVjezbanjaForma"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="Yh_c4DqGAqACBDL0"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="IZms4DqGAqACBBn8" EndRelationshipToMetaModelElement="U87k4DqGAqACBBFL" Id="guk84DqGAqACBDWY" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:53:50.401" PmLastModified="2017-05-14T15:54:41.938" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="IZms4DqGAqACBBn8" Id="guk84DqGAqACBDWZ" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:53:50.401" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="guk84DqGAqACBDWa" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:53:50.401" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="IZms4DqGAqACBBn8" Name="PrikazVjezbeViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="U87k4DqGAqACBBFL" Id="guk84DqGAqACBDWb" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:53:50.401" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="guk84DqGAqACBDWc" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:53:50.401" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="U87k4DqGAqACBBFL" Name="PrikazVjezbeForma"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="s.k84DqGAqACBDWd"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="5qys4DqGAqACBBjZ" EndRelationshipToMetaModelElement="F0UU4DqGAqACBBIr" Id="9hi84DqGAqACBDg2" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:54:23.471" PmLastModified="2017-05-14T15:54:41.926" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="5qys4DqGAqACBBjZ" Id="9hi84DqGAqACBDg3" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:54:23.471" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="9hi84DqGAqACBDg4" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:54:23.472" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="5qys4DqGAqACBBjZ" Name="RegistracijaNovogClanaViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="F0UU4DqGAqACBBIr" Id="Dhi84DqGAqACBDg5" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:54:23.472" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="Dhi84DqGAqACBDg6" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:54:23.472" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="F0UU4DqGAqACBBIr" Name="RegistracijaNovogClanaForma"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="MJi84DqGAqACBDg7"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="K9F4wtqGAqAADQp0" EndRelationshipToMetaModelElement="WTdE4DqGAqACBA0a" Id="f.e84DqGAqACBDsD" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:55:16.606" PmLastModified="2017-05-14T15:55:26.968" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="K9F4wtqGAqAADQp0" Id="f.e84DqGAqACBDsE" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:55:16.606" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="f.e84DqGAqACBDsF" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:55:16.606" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="K9F4wtqGAqAADQp0" Name="Clan"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="WTdE4DqGAqACBA0a" Id="f.e84DqGAqACBDsG" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:55:16.606" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="f.e84DqGAqACBDsH" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:55:16.606" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="WTdE4DqGAqACBA0a" Name="PrijavaViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="Exe84DqGAqACBDsI"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="JQx4wtqGAqAADQpi" EndRelationshipToMetaModelElement="WTdE4DqGAqACBA0a" Id="Xpt84DqGAqACBD2G" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:56:18.426" PmLastModified="2017-05-14T15:56:34.055" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="JQx4wtqGAqAADQpi" Id="Xpt84DqGAqACBD2H" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:56:18.426" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="Xpt84DqGAqACBD2I" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:56:18.426" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="JQx4wtqGAqAADQpi" Name="Teretana"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="WTdE4DqGAqACBA0a" Id="Xpt84DqGAqACBD2J" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:56:18.427" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="3pt84DqGAqACBD2K" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:56:18.427" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="WTdE4DqGAqACBA0a" Name="PrijavaViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="PFt84DqGAqACBD2L"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="Czt44DqGAqACBAxG" EndRelationshipToMetaModelElement="ID9E4DqGAqACBA0x" Id="Ub384DqGAqACBEFZ" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:57:16.810" PmLastModified="2017-05-14T15:57:42.103" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="Czt44DqGAqACBAxG" Id="Ub384DqGAqACBEFa" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:57:16.810" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="Ub384DqGAqACBEFb" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:57:16.810" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="Czt44DqGAqACBAxG" Name="ClanUplata"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="ID9E4DqGAqACBA0x" Id="0b384DqGAqACBEFc" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:57:16.811" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="0b384DqGAqACBEFd" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:57:16.811" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="ID9E4DqGAqACBA0x" Name="UplateViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref=".P384DqGAqACBEFe"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="XS8WItqGAqAAaQqy" EndRelationshipToMetaModelElement="liXM4DqGAqACBBTB" Id="pxqi4DqGAqACBFmd" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:03:24.261" PmLastModified="2017-05-14T16:03:35.626" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="XS8WItqGAqAAaQqy" Id="pxqi4DqGAqACBFme" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:03:24.261" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="pxqi4DqGAqACBFmf" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:03:24.261" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="XS8WItqGAqAAaQqy" Name="PlanIshrane"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="liXM4DqGAqACBBTB" Id="pxqi4DqGAqACBFmg" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:03:24.261" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="pxqi4DqGAqACBFmh" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:03:24.261" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="liXM4DqGAqACBBTB" Name="Ishrana-PlanIshraneViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="QZqi4DqGAqACBFmi"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="2IixItqGAqAAaQwL" EndRelationshipToMetaModelElement="Mq3M4DqGAqACBBTl" Id="G7.i4DqGAqACBFuO" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:04:06.488" PmLastModified="2017-05-14T16:04:17.687" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="2IixItqGAqAAaQwL" Id="G7.i4DqGAqACBFuP" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:04:06.488" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="G7.i4DqGAqACBFuQ" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:04:06.488" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="2IixItqGAqAAaQwL" Name="Obrok"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="Mq3M4DqGAqACBBTl" Id="G7.i4DqGAqACBFuR" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:04:06.488" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="G7.i4DqGAqACBFuS" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:04:06.488" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="Mq3M4DqGAqACBBTl" Name="Ishrana-receptiViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="TX.i4DqGAqACBFuT"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="82MEwtqGAqAADQqR" EndRelationshipToMetaModelElement="g8Bs4DqGAqACBBtM" Id="a_1i4DqGAqACBF6h" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:04:56.150" PmLastModified="2017-05-14T16:05:16.927" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="82MEwtqGAqAADQqR" Id="a_1i4DqGAqACBF6i" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:04:56.150" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="a_1i4DqGAqACBF6j" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:04:56.150" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="82MEwtqGAqAADQqR" Name="ProgramVjezbanja"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="g8Bs4DqGAqACBBtM" Id="a_1i4DqGAqACBF6k" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:04:56.150" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="a_1i4DqGAqACBF6l" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:04:56.150" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="g8Bs4DqGAqACBBtM" Name="PlanVjezbanjaViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="1QNi4DqGAqACBF6m"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="1qNmItqGAqAAaQpl" EndRelationshipToMetaModelElement="g8Bs4DqGAqACBBtM" Id="uzti4DqGAqACBF7a" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:05:03.581" PmLastModified="2017-05-14T16:05:16.941" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="1qNmItqGAqAAaQpl" Id="uzti4DqGAqACBF7b" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:05:03.581" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="uzti4DqGAqACBF7c" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:05:03.581" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="1qNmItqGAqAAaQpl" Name="Vjezba"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="g8Bs4DqGAqACBBtM" Id="uzti4DqGAqACBF7d" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:05:03.581" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="uzti4DqGAqACBF7e" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:05:03.581" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="g8Bs4DqGAqACBBtM" Name="PlanVjezbanjaViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="4bti4DqGAqACBF7f"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="82MEwtqGAqAADQqR" EndRelationshipToMetaModelElement="IZms4DqGAqACBBn8" Id="WkyS4DqGAqACBGaD" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:07:36.538" PmLastModified="2017-05-14T16:08:06.217" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="82MEwtqGAqAADQqR" Id="WkyS4DqGAqACBGaE" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:07:36.538" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="WkyS4DqGAqACBGaF" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:07:36.538" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="82MEwtqGAqAADQqR" Name="ProgramVjezbanja"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="IZms4DqGAqACBBn8" Id="WkyS4DqGAqACBGaG" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:07:36.538" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="WkyS4DqGAqACBGaH" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:07:36.538" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="IZms4DqGAqACBBn8" Name="PrikazVjezbeViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="ZMyS4DqGAqACBGaI"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="82MEwtqGAqAADQqR" EndRelationshipToMetaModelElement="ErXM4DqGAqACBBTV" Id="osqS4DqGAqACBGb4" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:07:44.965" PmLastModified="2017-05-14T16:08:06.224" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="82MEwtqGAqAADQqR" Id="osqS4DqGAqACBGb5" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:07:44.965" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="osqS4DqGAqACBGb6" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:07:44.965" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="82MEwtqGAqAADQqR" Name="ProgramVjezbanja"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="ErXM4DqGAqACBBTV" Id="osqS4DqGAqACBGb7" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:07:44.965" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="osqS4DqGAqACBGb8" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:07:44.965" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="ErXM4DqGAqACBBTV" Name="ZabiljeskeViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="18qS4DqGAqACBGb9"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="K9F4wtqGAqAADQp0" EndRelationshipToMetaModelElement="dN8s4DqGAqACBBgt" Id="TC5S4DqGAqACBGoR" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:08:58.930" PmLastModified="2017-05-14T16:10:09.440" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="K9F4wtqGAqAADQp0" Id="TC5S4DqGAqACBGoS" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:08:58.930" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="TC5S4DqGAqACBGoT" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:08:58.930" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="K9F4wtqGAqAADQp0" Name="Clan"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="dN8s4DqGAqACBBgt" Id="TC5S4DqGAqACBGoU" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:08:58.930" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="TC5S4DqGAqACBGoV" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:08:58.930" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="dN8s4DqGAqACBBgt" Name="ProfilKorisnikaViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="cy5S4DqGAqACBGoW"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="82MEwtqGAqAADQqR" EndRelationshipToMetaModelElement="dN8s4DqGAqACBBgt" Id="iWFS4DqGAqACBGpI" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:09:03.633" PmLastModified="2017-05-14T16:10:09.442" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="82MEwtqGAqAADQqR" Id="iWFS4DqGAqACBGpJ" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:09:03.633" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="iWFS4DqGAqACBGpK" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:09:03.633" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="82MEwtqGAqAADQqR" Name="ProgramVjezbanja"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="dN8s4DqGAqACBBgt" Id="iWFS4DqGAqACBGpL" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:09:03.633" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="iWFS4DqGAqACBGpM" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:09:03.633" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="dN8s4DqGAqACBBgt" Name="ProfilKorisnikaViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="XOFS4DqGAqACBGpN"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="1qNmItqGAqAAaQpl" EndRelationshipToMetaModelElement="dN8s4DqGAqACBBgt" Id="8LlS4DqGAqACBGqL" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:09:09.391" PmLastModified="2017-05-14T16:10:09.444" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="1qNmItqGAqAAaQpl" Id="8LlS4DqGAqACBGqM" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:09:09.391" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="8LlS4DqGAqACBGqN" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:09:09.391" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="1qNmItqGAqAAaQpl" Name="Vjezba"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="dN8s4DqGAqACBBgt" Id="8LlS4DqGAqACBGqO" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:09:09.391" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="8LlS4DqGAqACBGqP" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:09:09.391" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="dN8s4DqGAqACBBgt" Name="ProfilKorisnikaViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="y7lS4DqGAqACBGqQ"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="2IixItqGAqAAaQwL" EndRelationshipToMetaModelElement="dN8s4DqGAqACBBgt" Id="XY1S4DqGAqACBGrS" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:09:14.682" PmLastModified="2017-05-14T16:10:09.428" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="2IixItqGAqAAaQwL" Id="XY1S4DqGAqACBGrT" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:09:14.682" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="XY1S4DqGAqACBGrU" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:09:14.682" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="2IixItqGAqAAaQwL" Name="Obrok"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="dN8s4DqGAqACBBgt" Id="XY1S4DqGAqACBGrV" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:09:14.682" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="XY1S4DqGAqACBGrW" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:09:14.682" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="dN8s4DqGAqACBBgt" Name="ProfilKorisnikaViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="ak1S4DqGAqACBGrX"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="WVZ4wtqGAqAADQpr" EndRelationshipToMetaModelElement="xRJs4DqGAqACBBvq" Id="q7qy4DqGAqACBHTc" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:12:09.813" PmLastModified="2017-05-14T16:14:06.167" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="WVZ4wtqGAqAADQpr" Id="q7qy4DqGAqACBHTd" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:12:09.813" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="q7qy4DqGAqACBHTe" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:12:09.813" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="WVZ4wtqGAqAADQpr" Name="Zaposlenik"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="xRJs4DqGAqACBBvq" Id="q7qy4DqGAqACBHTf" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:12:09.813" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="q7qy4DqGAqACBHTg" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:12:09.813" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="xRJs4DqGAqACBBvq" Name="PocetnaUposlenikViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="Knqy4DqGAqACBHTh"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="JQx4wtqGAqAADQpi" EndRelationshipToMetaModelElement="5qys4DqGAqACBBjZ" Id="Psny4DqGAqACBH2o" Leaf="false" OrderingInProfile="-1" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:14:34.620" PmLastModified="2017-05-14T16:15:20.972" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="JQx4wtqGAqAADQpi" Id="Psny4DqGAqACBH2p" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:14:34.620" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="Psny4DqGAqACBH2q" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:14:34.620" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="JQx4wtqGAqAADQpi" Name="Teretana"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="5qys4DqGAqACBBjZ" Id="Psny4DqGAqACBH2r" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:14:34.620" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="Psny4DqGAqACBH2s" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T16:14:34.620" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="5qys4DqGAqACBBjZ" Name="RegistracijaNovogClanaViewModel"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="pCny4DqGAqACBH2t"/>
+			</MasterView>
+		</Association>
+	</Models>
+</Project>
