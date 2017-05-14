@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="Savjetii.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Savjetii"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:Name="image" HorizontalAlignment="Left" Height="222" Margin="461,10,0,0" VerticalAlignment="Top" Width="179" Source="Assets/slika1.jpg"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="51,10,0,0" TextWrapping="Wrap" Text="Savjeti" VerticalAlignment="Top" FontSize="36"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="1071,428,-440,-248" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="51,136,0,0" TextWrapping="Wrap" Text="Mjesto za odgovarajući tekst" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2_Copy" HorizontalAlignment="Left" Margin="461,237,0,0" TextWrapping="Wrap" Text="Mjesto za odgovarajući tekst" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="855,428,-224,-248" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>

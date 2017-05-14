@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="PrikazVjezbe.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PrikazVjezbe"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <MediaTransportControls HorizontalAlignment="Left" Margin="72,123,0,0" VerticalAlignment="Top" Height="142" Width="367"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="247" Margin="620,77,0,0" VerticalAlignment="Top" Width="162" Source="Assets/aktiviraniMisici.png"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="620,352,0,0" TextWrapping="Wrap" Text="Prikaz mišića koji se aktiviraju prilikom izvođenja vježbe" VerticalAlignment="Top" Width="171" Height="128" SelectionChanged="textBlock_SelectionChanged" RenderTransformOrigin="0.505,0.598"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="72,360,0,0" TextWrapping="Wrap" Text="Opis vježbe" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="72,430,0,0" TextWrapping="Wrap" Text="Odgovarajući opis vježbe" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="151,270,0,0" TextWrapping="Wrap" Text="Prikaz načina izvođenja vježbe" VerticalAlignment="Top"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="100" Margin="72,23,0,0" VerticalAlignment="Top" Width="367" Source="Assets/video.jpg" Stretch="Fill"/>
+
+    </Grid>
+</Page>
