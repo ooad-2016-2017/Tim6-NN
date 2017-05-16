@@ -428,59 +428,59 @@
 				<NOTE Idref="lkEk4DqGAqACBA5l" Name=""/>
 			</MasterView>
 		</NOTE>
-		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="BU2k4DqGAqACBA8N" Leaf="false" Name="PrijavaForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:28:50.080" PmLastModified="2017-05-14T15:48:38.885" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="BU2k4DqGAqACBA8N" Leaf="false" Name="PrijavaView" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:28:50.080" PmLastModified="2017-05-16T11:03:56.690" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
 			<MasterView>
-				<Class Idref=".U2k4DqGAqACBA8M" Name="PrijavaForma"/>
+				<Class Idref=".U2k4DqGAqACBA8M" Name="PrijavaView"/>
 			</MasterView>
 		</Class>
-		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="aF2k4DqGAqACBA8Z" Leaf="false" Name="Ishrana-PlanIshraneForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:28:51.990" PmLastModified="2017-05-14T15:51:38.042" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="aF2k4DqGAqACBA8Z" Leaf="false" Name="Ishrana-PlanIshraneView" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:28:51.990" PmLastModified="2017-05-16T11:03:56.724" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
 			<MasterView>
-				<Class Idref="aF2k4DqGAqACBA8Y" Name="Ishrana-PlanIshraneForma"/>
+				<Class Idref="aF2k4DqGAqACBA8Y" Name="Ishrana-PlanIshraneView"/>
 			</MasterView>
 		</Class>
-		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="9YOk4DqGAqACBA8n" Leaf="false" Name="Ishrana-receptiForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:28:53.935" PmLastModified="2017-05-14T15:51:37.973" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="9YOk4DqGAqACBA8n" Leaf="false" Name="Ishrana-receptiView" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:28:53.935" PmLastModified="2017-05-16T11:03:56.670" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
 			<MasterView>
-				<Class Idref="9YOk4DqGAqACBA8m" Name="Ishrana-receptiForma"/>
+				<Class Idref="9YOk4DqGAqACBA8m" Name="Ishrana-receptiView"/>
 			</MasterView>
 		</Class>
-		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="pFOk4DqGAqACBA81" Leaf="false" Name="PlanVjezbanjaForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:28:56.101" PmLastModified="2017-05-14T15:53:38.285" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="pFOk4DqGAqACBA81" Leaf="false" Name="PlanVjezbanjaView" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:28:56.101" PmLastModified="2017-05-16T11:03:56.708" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
 			<MasterView>
-				<Class Idref="pFOk4DqGAqACBA80" Name="PlanVjezbanjaForma"/>
+				<Class Idref="pFOk4DqGAqACBA80" Name="PlanVjezbanjaView"/>
 			</MasterView>
 		</Class>
-		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="ppjk4DqGAqACBBDX" Leaf="false" Name="PocetnaUposlenikForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:30:21.925" PmLastModified="2017-05-14T15:51:37.991" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="ppjk4DqGAqACBBDX" Leaf="false" Name="PocetnaUposlenikView" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:30:21.925" PmLastModified="2017-05-16T11:03:56.681" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
 			<MasterView>
-				<Class Idref="Jpjk4DqGAqACBBDW" Name="PocetnaUposlenikForma"/>
+				<Class Idref="Jpjk4DqGAqACBBDW" Name="PocetnaUposlenikView"/>
 			</MasterView>
 		</Class>
-		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="U87k4DqGAqACBBFL" Leaf="false" Name="PrikazVjezbeForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:30:45.066" PmLastModified="2017-05-14T15:54:41.937" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="U87k4DqGAqACBBFL" Leaf="false" Name="PrikazVjezbeView" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:30:45.066" PmLastModified="2017-05-16T11:03:56.704" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
 			<MasterView>
-				<Class Idref="k87k4DqGAqACBBFK" Name="PrikazVjezbeForma"/>
+				<Class Idref="k87k4DqGAqACBBFK" Name="PrikazVjezbeView"/>
 			</MasterView>
 		</Class>
-		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="ob3k4DqGAqACBBGF" Leaf="false" Name="ProfilKorisnikaForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:31:03.941" PmLastModified="2017-05-14T15:51:38.013" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="ob3k4DqGAqACBBGF" Leaf="false" Name="ProfilKorisnikaView" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:31:03.941" PmLastModified="2017-05-16T11:03:56.698" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
 			<MasterView>
-				<Class Idref="Ib3k4DqGAqACBBGE" Name="ProfilKorisnikaForma"/>
+				<Class Idref="Ib3k4DqGAqACBBGE" Name="ProfilKorisnikaView"/>
 			</MasterView>
 		</Class>
-		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="U7_k4DqGAqACBBHR" Leaf="false" Name="SavjetiForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:31:20.394" PmLastModified="2017-05-14T15:51:38.029" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="U7_k4DqGAqACBBHR" Leaf="false" Name="SavjetiView" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:31:20.394" PmLastModified="2017-05-16T11:03:56.720" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
 			<MasterView>
-				<Class Idref="k7_k4DqGAqACBBHQ" Name="SavjetiForma"/>
+				<Class Idref="k7_k4DqGAqACBBHQ" Name="SavjetiView"/>
 			</MasterView>
 		</Class>
-		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="CDgU4DqGAqACBBH7" Leaf="false" Name="UplateForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:31:28.144" PmLastModified="2017-05-14T15:51:38.024" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="CDgU4DqGAqACBBH7" Leaf="false" Name="UplateView" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:31:28.144" PmLastModified="2017-05-16T11:04:07.251" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
 			<MasterView>
-				<Class Idref="CDgU4DqGAqACBBH6" Name="UplateForma"/>
+				<Class Idref="CDgU4DqGAqACBBH6" Name="UplateView"/>
 			</MasterView>
 		</Class>
-		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="F0UU4DqGAqACBBIr" Leaf="false" Name="RegistracijaNovogClanaForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:32:02.664" PmLastModified="2017-05-14T15:54:41.952" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="F0UU4DqGAqACBBIr" Leaf="false" Name="RegistracijaNovogClanaView" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:32:02.664" PmLastModified="2017-05-16T11:03:56.711" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
 			<MasterView>
-				<Class Idref="50UU4DqGAqACBBIq" Name="RegistracijaNovogClanaForma"/>
+				<Class Idref="50UU4DqGAqACBBIq" Name="RegistracijaNovogClanaView"/>
 			</MasterView>
 		</Class>
-		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="r9MU4DqGAqACBBJ3" Leaf="false" Name="ZabiljeskeForma" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:32:13.173" PmLastModified="2017-05-14T15:51:38.027" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="r9MU4DqGAqACBBJ3" Leaf="false" Name="ZabiljeskeView" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:32:13.173" PmLastModified="2017-05-16T11:03:56.715" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
 			<MasterView>
-				<Class Idref="L9MU4DqGAqACBBJ2" Name="ZabiljeskeForma"/>
+				<Class Idref="L9MU4DqGAqACBBJ2" Name="ZabiljeskeView"/>
 			</MasterView>
 		</Class>
 		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="liXM4DqGAqACBBTB" Leaf="false" Name="Ishrana-PlanIshraneViewModel" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:44:03.945" PmLastModified="2017-05-14T16:03:35.644" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
@@ -780,7 +780,7 @@
 						<Qualifier Documentation_plain="" Id="_VXs4DqGAqACBB_." Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:48:27.711" QualityScore="-1" UserIDLastNumericValue="0"/>
 					</Qualifier>
 					<Type>
-						<Class Idref="BU2k4DqGAqACBA8N" Name="PrijavaForma"/>
+						<Class Idref="BU2k4DqGAqACBA8N" Name="PrijavaView"/>
 					</Type>
 				</AssociationEnd>
 			</ToEnd>
@@ -805,7 +805,7 @@
 						<Qualifier Documentation_plain="" Id="PRcc4DqGAqACBCMH" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:49:49.116" QualityScore="-1" UserIDLastNumericValue="0"/>
 					</Qualifier>
 					<Type>
-						<Class Idref="CDgU4DqGAqACBBH7" Name="UplateForma"/>
+						<Class Idref="CDgU4DqGAqACBBH7" Name="UplateView"/>
 					</Type>
 				</AssociationEnd>
 			</ToEnd>
@@ -830,7 +830,7 @@
 						<Qualifier Documentation_plain="" Id="1NCc4DqGAqACBCON" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:49:57.931" QualityScore="-1" UserIDLastNumericValue="0"/>
 					</Qualifier>
 					<Type>
-						<Class Idref="U7_k4DqGAqACBBHR" Name="SavjetiForma"/>
+						<Class Idref="U7_k4DqGAqACBBHR" Name="SavjetiView"/>
 					</Type>
 				</AssociationEnd>
 			</ToEnd>
@@ -855,7 +855,7 @@
 						<Qualifier Documentation_plain="" Id="KFyc4DqGAqACBCSm" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:09.940" QualityScore="-1" UserIDLastNumericValue="0"/>
 					</Qualifier>
 					<Type>
-						<Class Idref="r9MU4DqGAqACBBJ3" Name="ZabiljeskeForma"/>
+						<Class Idref="r9MU4DqGAqACBBJ3" Name="ZabiljeskeView"/>
 					</Type>
 				</AssociationEnd>
 			</ToEnd>
@@ -880,7 +880,7 @@
 						<Qualifier Documentation_plain="" Id="m3Kc4DqGAqACBCUo" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:15.257" QualityScore="-1" UserIDLastNumericValue="0"/>
 					</Qualifier>
 					<Type>
-						<Class Idref="aF2k4DqGAqACBA8Z" Name="Ishrana-PlanIshraneForma"/>
+						<Class Idref="aF2k4DqGAqACBA8Z" Name="Ishrana-PlanIshraneView"/>
 					</Type>
 				</AssociationEnd>
 			</ToEnd>
@@ -905,7 +905,7 @@
 						<Qualifier Documentation_plain="" Id="c16c4DqGAqACBCX." Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:26.510" QualityScore="-1" UserIDLastNumericValue="0"/>
 					</Qualifier>
 					<Type>
-						<Class Idref="ob3k4DqGAqACBBGF" Name="ProfilKorisnikaForma"/>
+						<Class Idref="ob3k4DqGAqACBBGF" Name="ProfilKorisnikaView"/>
 					</Type>
 				</AssociationEnd>
 			</ToEnd>
@@ -930,7 +930,7 @@
 						<Qualifier Documentation_plain="" Id="INGc4DqGAqACBCZn" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:30.660" QualityScore="-1" UserIDLastNumericValue="0"/>
 					</Qualifier>
 					<Type>
-						<Class Idref="9YOk4DqGAqACBA8n" Name="Ishrana-receptiForma"/>
+						<Class Idref="9YOk4DqGAqACBA8n" Name="Ishrana-receptiView"/>
 					</Type>
 				</AssociationEnd>
 			</ToEnd>
@@ -955,7 +955,7 @@
 						<Qualifier Documentation_plain="" Id="x5Wc4DqGAqACBCdm" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:50:38.563" QualityScore="-1" UserIDLastNumericValue="0"/>
 					</Qualifier>
 					<Type>
-						<Class Idref="ppjk4DqGAqACBBDX" Name="PocetnaUposlenikForma"/>
+						<Class Idref="ppjk4DqGAqACBBDX" Name="PocetnaUposlenikView"/>
 					</Type>
 				</AssociationEnd>
 			</ToEnd>
@@ -980,7 +980,7 @@
 						<Qualifier Documentation_plain="" Id="4e_c4DqGAqACBDLz" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:53:09.511" QualityScore="-1" UserIDLastNumericValue="0"/>
 					</Qualifier>
 					<Type>
-						<Class Idref="pFOk4DqGAqACBA81" Name="PlanVjezbanjaForma"/>
+						<Class Idref="pFOk4DqGAqACBA81" Name="PlanVjezbanjaView"/>
 					</Type>
 				</AssociationEnd>
 			</ToEnd>
@@ -1005,7 +1005,7 @@
 						<Qualifier Documentation_plain="" Id="guk84DqGAqACBDWc" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:53:50.401" QualityScore="-1" UserIDLastNumericValue="0"/>
 					</Qualifier>
 					<Type>
-						<Class Idref="U87k4DqGAqACBBFL" Name="PrikazVjezbeForma"/>
+						<Class Idref="U87k4DqGAqACBBFL" Name="PrikazVjezbeView"/>
 					</Type>
 				</AssociationEnd>
 			</ToEnd>
@@ -1030,7 +1030,7 @@
 						<Qualifier Documentation_plain="" Id="Dhi84DqGAqACBDg6" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-14T15:54:23.472" QualityScore="-1" UserIDLastNumericValue="0"/>
 					</Qualifier>
 					<Type>
-						<Class Idref="F0UU4DqGAqACBBIr" Name="RegistracijaNovogClanaForma"/>
+						<Class Idref="F0UU4DqGAqACBBIr" Name="RegistracijaNovogClanaView"/>
 					</Type>
 				</AssociationEnd>
 			</ToEnd>
