@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Author="Lamija" CommentTableSortAscending="false" CommentTableSortColumn="Date Time" Description="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;" DocumentationType="html" ExportedFromDifferentName="false" ExporterVersion="12.2" Name="PregledProgramaVjezbanjaIPrehrane" TextualAnalysisHighlightOptionCaseSensitive="false" UmlVersion="2.x" Xml_structure="simple">
+	<ProjectInfo>
+		<LogicalView/>
+		<ProjectOptions>
+			<DiagramOptions ActivityDiagramControlFlowDisplayOption="\u0000" ActivityDiagramShowActionCallBehaviorOption="\u0000" ActivityDiagramShowActivityEdgeWeight="true" ActivityDiagramShowObjectNodeType="true" ActivityDiagramShowPartitionHandle="\u0000" AddDataStoresExtEntitiesToDecomposedDFD="\u0002" AlignColumnProperties="true" AllowConfigShowInOutFlowButtonsInDataFlowDiagram="false" AutoGenerateRoleName="false" AutoSetAttributeType="true" AutoSetColumnType="true" AutoSyncRoleName="true" BpdAutoStretchPools="true" BpdConnectGatewayWithFlowObjectInDifferentPool="\u0000" BpdDefaultConnectionPointStyle="\u0001" BpdDefaultConnectorStyle="\u0005" BpdDhowIdOption="\u0000" BpdShowActivitiesTypeIcon="true" BusinessProcessDiagramDefaultLanguage="English" ClassVisibilityStyle="\u0001" ConnectorLabelOrientation="\u0000" CreateOneMessagePerDirection="true" DecisionMergeNodeConnectionPointStyle="\u0000" DefaultAssociationEndNavigable="\u0001" DefaultAssociationEndVisibility="\u0000" DefaultAssociationShowFromMultiplicity="true" DefaultAssociationShowFromRoleName="true" DefaultAssociationShowFromRoleVisibility="true" DefaultAssociationShowStereotypes="true" DefaultAssociationShowToMultiplicity="true" DefaultAssociationShowToRoleName="true" DefaultAssociationShowToRoleVisibility="true" DefaultAttributeMultiplicity="false" DefaultAttributeType="" DefaultAttributeVisibility="\u0001" DefaultClassAttributeMultiplicity="" DefaultClassAttributeMultiplicityOrdered="false" DefaultClassAttributeMultiplicityUnique="true" DefaultClassInterfaceBall="false" DefaultClassVisibility="\u0004" DefaultColumnType="integer(10)" DefaultConnectionPointStyle="\u0000" DefaultConnectorStyle="\u0001" DefaultDiagramBackground="rgb(255, 255, 255)" DefaultDisplayAsRobustnessAnalysisIcon="true" DefaultDisplayAsRobustnessAnalysisIconInSequenceDiagram="true" DefaultDisplayAsStereotypeIcon="false" DefaultFontColor="rgb(0, 0, 0)" DefaultGenDiagramTypeFromScenario="\u0000" DefaultHtmlDocFontColor="rgb(0, 0, 0)" DefaultLineJumps="\u0000" DefaultOperationVisibility="\u0004" DefaultParameterDirection="\u0002" DefaultShowAttributeInitialValue="true" DefaultShowAttributeOption="\u0001" DefaultShowClassMemberStereotype="true" DefaultShowDirection="false" DefaultShowMultiplicityConstraints="false" DefaultShowOperationOption="\u0001" DefaultShowOperationSignature="true" DefaultShowOrderedMultiplicityConstraint="true" DefaultShowOwnedAssociationEndAsAttribute="true" DefaultShowOwner="false" DefaultShowTemplateParameter="true" DefaultShowTypeOption="\u0001" DefaultShowUniqueMultiplicityConstraint="true" DefaultTypeOfSubProcess="\u0000" DefaultWrapClassMember="false" DrawTextAnnotationOpenRectangleFollowConnectorEnd="true" EnableMinimumSize="true" EntityColumnConstraintsPresentation="\u0002" ErdIndexNumOfDigits="-1" ErdIndexPattern="{table_name}" ErdIndexPatternSyncAutomatically="true" ErdManyToManyJoinTableDelimiter="_" ExpandedSubProcessDiagramContent="\u0001" ForeignKeyArrowHeadSize="\u0002" ForeignKeyConnectorEndPointAssociatedColumn="false" ForeignKeyNamePattern="{reference_table_name}{reference_column_name}" ForeignKeyNamePatternCaseHandling="0" ForeignKeyRelationshipPattern="{association_name}" FractionalMetrics="true" GeneralizationSetNotation="\u0001" GraphicAntiAliasing="true" GridDiagramFontSize="14" LineJumpSize="\u0000" ModelElementNameAlignment="\u0004" MultipleLineClassName="\u0001" PaintConnectorThroughLabel="false" PointConnectorEndToCompartmentMember="true" PrimaryKeyConstraintPattern="" PrimaryKeyNamePattern="ID" RenameConstructorAfterRenameClass="\u0000" RenameExtensionPointToFollowExtendUseCase="\u0000" ShapeAutoFitSize="false" ShowActivationsInSequenceDiagram="true" ShowActivityStateNodeCaption="65535" ShowArtifactOption="\u0002" ShowAssociatedDiagramNameOfInteraction="false" ShowAssociationRoleStereotypes="true" ShowAttributeGetterSetter="false" ShowClassEmptyCompartments="false" ShowColumnNullable="true" ShowColumnType="true" ShowColumnUniqueConstraintName="false" ShowComponentOption="\u0002" ShowExtraColumnProperties="true" ShowInOutFlowButtonsInDataFlowDiagram="false" ShowInOutFlowsInSubLevelDiagram="true" ShowMessageOperationSignatureForSequenceAndCommunicationDiagram="true" ShowMessageStereotypeInSequenceAndCommunicationDiagram="true" ShowNumberInCollaborationDiagram="true" ShowNumberInSequenceDiagram="true" ShowPackageNameStyle="\u0000" ShowParameterNameInOperationSignature="true" ShowRowGridLineWithinCompClassDiagram="false" ShowRowGridLineWithinCompERD="true" ShowRowGridLineWithinORMDiagram="true" ShowSchemaNameInERD="true" ShowTransitionTrigger="\u0000" ShowUseCaseExtensionPoint="true" ShowUseCaseID="false" StateShowPrePostConditionAndBodyOfInternalActivities="true" StopTargetLifelineOnCreateDestroyMessage="\u0002" SupportHtmlTaggedValue="false" SupportMultipleLineAttribute="true" SuppressImpliedMultiplicityForAttributeAssociationEnd="false" SyncAssociationNameWithAssociationClass="\u0000" SyncAssociationRoleNameWithReferencedAttributeName="true" SyncDocOfInterfaceToSubClass="\u0000" TextAntiAliasing="true" TextualAnalysisGenerateRequirementTextOption="\u0001" TextualAnalysisHighlightOption="\u0000" UnnamedIndexPattern="{table_name}_{column_name}" UseStateNameTab="false">
+				<DefaultHtmlDocFont Family="Dialog" Size="12" Style="0"/>
+			</DiagramOptions>
+			<GeneralOptions ConfirmSubLevelIdWithDot="true"/>
+			<InstantReverseOptions CalculateGeneralizationAndRealization="false" CreateShapeForParentModelOfDraggedClassPackage="false" ReverseGetterSetter="\u0000" ReverseOperationImplementation="false" ShowPackageForNewDiagram="\u0001" ShowPackageOwner="\u0000"/>
+			<ModelQualityOptions EnableModelQualityChecking="false"/>
+			<ORMOptions DecimalPrecision="19" DecimalScale="0" ExportCommentToDatabase="true" FormattedSQL="false" GenerateAssociationWithAttribute="false" GenerateDiagramFromORMWizards="true" GetterSetterVisibility="\u0000" IdGeneratorType="native" MappingFileColumnOrder="\u0000" NumericToClassType="\u0000" QuoteSQLIdentifier="\u0000" RecreateShapeWhenSync="false" SyncToClassDiagramAttributeName="\u0001" SyncToClassDiagramAttributeNamePrefix="" SyncToClassDiagramAttributeNameSuffix="" SyncToClassDiagramClassName="\u0000" SyncToClassDiagramClassNamePrefix="" SyncToClassDiagramClassNameSuffix="" SyncToERDColumnName="\u0000" SyncToERDColumnNamePrefix="" SyncToERDColumnNameSuffix="" SyncToERDTableName="\u0004" SyncToERDTableNamePrefix="" SyncToERDTableNameSuffix="" SynchronizeDefaultValueToColumn="false" SynchronizeName="\u0002" TablePerSubclassFKMapping="\u0000" UpperCaseSQL="true" UseDefaultDecimal="true" WrappingServletRequest="\u0001"/>
+			<RequirementDiagramOptions DefaultWrapMember="false" ShowAttributes="\u0001" SupportHTMLAttribute="false"/>
+			<StateCodeEngineOptions AutoCreateInitialStateInStateDiagram="true" AutoCreateTransitionMethods="true" DefaultInitialStateLocationX="-1" DefaultInitialStateLocationY="-1" GenerateDebugMessage="false" GenerateSample="true" GenerateTryCatch="true" Language="\u0000" RegenerateTransitionMethods="false" SyncTransitionMethods="true"/>
+			<WarningOptions CreateORMClassInDefaultPackage="true"/>
+			<PORepository>
+				<POUserIDFormats>
+					<POUserIDFormat Digits="2" Guid="false" Id="K4G11DqGAqACBhZO" LastNumericValue="0" ModelType="BPMNElement" Prefix="BP" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="a4G11DqGAqACBhZP" LastNumericValue="0" ModelType="Actor" Prefix="AC" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="a4G11DqGAqACBhZQ" LastNumericValue="0" ModelType="UseCase" Prefix="UC" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="a4G11DqGAqACBhZR" LastNumericValue="0" ModelType="Requirement" Prefix="REQ" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="a4G11DqGAqACBhZS" LastNumericValue="0" ModelType="BusinessRule" Prefix="BR" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="a4G11DqGAqACBhZT" LastNumericValue="0" ModelType="PERTTask" Prefix="" Suffix=""/>
+					<POUserIDFormat Digits="-1" Guid="false" Id="a4G11DqGAqACBhZU" LastNumericValue="0" ModelType="BusinessProcessDiagram" Prefix="" Suffix=""/>
+				</POUserIDFormats>
+			</PORepository>
+		</ProjectOptions>
+	</ProjectInfo>
+	<Models>
+		<DataType Documentation_plain="" Id="0Rq11DqGAqACBhLf" Name="boolean" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:43:19.691" PmLastModified="2017-05-21T17:47:33.069" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="8Rq11DqGAqACBhLg" Name="byte" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:43:19.695" PmLastModified="2017-05-21T17:47:33.108" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="CRq11DqGAqACBhLh" Name="char" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:43:19.696" PmLastModified="2017-05-21T17:47:33.008" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="iRq11DqGAqACBhLi" Name="double" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:43:19.697" PmLastModified="2017-05-21T17:47:32.912" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="SRq11DqGAqACBhLj" Name="float" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:43:19.698" PmLastModified="2017-05-21T17:47:33.091" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="yRq11DqGAqACBhLk" Name="int" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:43:19.699" PmLastModified="2017-05-21T17:47:33.015" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="KRq11DqGAqACBhLl" Name="long" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:43:19.700" PmLastModified="2017-05-21T17:47:33.050" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="qRq11DqGAqACBhLm" Name="short" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:43:19.701" PmLastModified="2017-05-21T17:47:32.976" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="aRq11DqGAqACBhLn" Name="void" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:43:19.702" PmLastModified="2017-05-21T17:47:32.854" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="6Rq11DqGAqACBhLo" Name="string" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:43:19.703" PmLastModified="2017-05-21T17:47:33.074" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<Frame BaseY="40" Documentation_plain="" Id="hOW11DqGAqACBhZZ" Name="PregledProgramaVjezbanjaIPrehrane" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:43:39.809" PmLastModified="2017-05-21T17:47:32.962" QualityScore="-1" Type="sd" UserIDLastNumericValue="0">
+			<ModelChildren>
+				<InteractionLifeLine Active="false" BaseClassifier="Clan" Class="false" ClassLevelStereotype="false" Documentation_plain="" Id="hIh11DqGAqACBhZj" MultiObject="false" Multiplicity="Unspecified" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:44:06.945" PmLastModified="2017-05-21T17:47:32.981" QualityScore="-1" Stopped="false" UserIDLastNumericValue="0">
+					<MasterView>
+						<CommunicationLifeLine Idref="BIh11DqGAqACBhZi" Name=""/>
+					</MasterView>
+				</InteractionLifeLine>
+				<InteractionLifeLine Active="false" BaseClassifier="Teretana" Class="false" ClassLevelStereotype="false" Documentation_plain="" Id="_cx11DqGAqACBhZp" MultiObject="false" Multiplicity="Unspecified" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:44:15.807" PmLastModified="2017-05-21T17:47:33.119" QualityScore="-1" Stopped="false" UserIDLastNumericValue="0">
+					<MasterView>
+						<CommunicationLifeLine Idref="fcx11DqGAqACBhZo" Name=""/>
+					</MasterView>
+				</InteractionLifeLine>
+			</ModelChildren>
+		</Frame>
+		<Frame BaseY="40" Documentation_plain="" Id="0mxN1DqGAqACBhcV" Name="RezervacijaTerminaGrupnihVjezbi" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:48:38.603" PmLastModified="2017-05-21T17:53:39.820" QualityScore="-1" Type="sd" UserIDLastNumericValue="0">
+			<ModelChildren>
+				<InteractionLifeLine Active="false" BaseClassifier="Clan" Class="false" ClassLevelStereotype="false" Documentation_plain="" Id="M5FN1DqGAqACBhce" MultiObject="false" Multiplicity="Unspecified" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:48:59.980" PmLastModified="2017-05-21T17:53:39.795" QualityScore="-1" Stopped="false" UserIDLastNumericValue="0">
+					<MasterView>
+						<CommunicationLifeLine Idref="05FN1DqGAqACBhcd" Name=""/>
+					</MasterView>
+				</InteractionLifeLine>
+				<InteractionLifeLine Active="false" BaseClassifier="Teretana" Class="false" ClassLevelStereotype="false" Documentation_plain="" Id="kJlN1DqGAqACBhck" MultiObject="false" Multiplicity="Unspecified" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:49:03.881" PmLastModified="2017-05-21T17:53:39.822" QualityScore="-1" Stopped="false" UserIDLastNumericValue="0">
+					<MasterView>
+						<CommunicationLifeLine Idref="EJlN1DqGAqACBhcj" Name=""/>
+					</MasterView>
+				</InteractionLifeLine>
+			</ModelChildren>
+		</Frame>
+		<InteractionLifeLineLink Documentation_plain="" EndRelationshipFromMetaModelElement="hIh11DqGAqACBhZj" EndRelationshipToMetaModelElement="_cx11DqGAqACBhZp" Id="HPZ11DqGAqACBhZw" Name="" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:44:31.032" PmLastModified="2017-05-21T17:47:32.982" QualityScore="-1" UserIDLastNumericValue="0">
+			<FromEnd>
+				<InteractionLifeLineLinkEnd Documentation_plain="" EndModelElement="hIh11DqGAqACBhZj" Id="HPZ11DqGAqACBhZx" Multiplicity="Unspecified" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:44:31.032" QualityScore="-1" UserIDLastNumericValue="0"/>
+			</FromEnd>
+			<ToEnd>
+				<InteractionLifeLineLinkEnd Documentation_plain="" EndModelElement="_cx11DqGAqACBhZp" Id="HPZ11DqGAqACBhZy" Multiplicity="Unspecified" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:44:31.032" QualityScore="-1" UserIDLastNumericValue="0"/>
+			</ToEnd>
+			<MasterView>
+				<InteractionLifeLineLink Idref="qvZ11DqGAqACBhZz" Name=""/>
+			</MasterView>
+			<ModelChildren>
+				<Message Asynchronous="false" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="hIh11DqGAqACBhZj" EndRelationshipToMetaModelElement="_cx11DqGAqACBhZp" Id="rUV11DqGAqACBhZ8" Name="unosPristupnihPodataka()" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:44:44.213" PmLastModified="2017-05-21T17:47:32.982" QualityScore="-1" SequenceNumber="1" Type="Message" UserIDLastNumericValue="0">
+					<FromEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="hIh11DqGAqACBhZj" Id="rUV11DqGAqACBhZ9" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:44:44.213" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</FromEnd>
+					<ToEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="_cx11DqGAqACBhZp" Id="rUV11DqGAqACBhZ." PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:44:44.213" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</ToEnd>
+					<MasterView>
+						<CommunicationMessage Idref="LUV11DqGAqACBhZ7" Name="unosPristupnihPodataka()"/>
+					</MasterView>
+				</Message>
+				<Message Asynchronous="false" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="_cx11DqGAqACBhZp" EndRelationshipToMetaModelElement="hIh11DqGAqACBhZj" Id="8xz11DqGAqACBhaw" Name="prikazProfilaKorisnikaIPonudjenihOpcija" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:45:22.639" PmLastModified="2017-05-21T17:47:32.983" QualityScore="-1" SequenceNumber="3" Type="Message" UserIDLastNumericValue="0">
+					<FromEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="_cx11DqGAqACBhZp" Id="8xz11DqGAqACBhax" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:45:22.639" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</FromEnd>
+					<ToEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="hIh11DqGAqACBhZj" Id="8xz11DqGAqACBhay" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:45:22.639" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</ToEnd>
+					<MasterView>
+						<CommunicationReverseMessage Idref="cxz11DqGAqACBhav" Name="prikazProfilaKorisnikaIPonudjenihOpcija"/>
+					</MasterView>
+				</Message>
+				<Message Asynchronous="false" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="hIh11DqGAqACBhZj" EndRelationshipToMetaModelElement="_cx11DqGAqACBhZp" Id="OjX11DqGAqACBhbG" Name="odabirOpcije()" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:45:52.220" PmLastModified="2017-05-21T17:47:32.915" QualityScore="-1" SequenceNumber="4" Type="Message" UserIDLastNumericValue="0">
+					<FromEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="hIh11DqGAqACBhZj" Id="OjX11DqGAqACBhbH" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:45:52.220" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</FromEnd>
+					<ToEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="_cx11DqGAqACBhZp" Id="OjX11DqGAqACBhbI" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:45:52.220" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</ToEnd>
+					<MasterView>
+						<CommunicationMessage Idref="2jX11DqGAqACBhbF" Name="odabirOpcije()"/>
+					</MasterView>
+				</Message>
+				<Message Asynchronous="false" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="_cx11DqGAqACBhZp" EndRelationshipToMetaModelElement="hIh11DqGAqACBhZj" Id="HIv11DqGAqACBhbY" Name="prikazSadrzaja()" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:46:01.656" PmLastModified="2017-05-21T17:47:32.911" QualityScore="-1" SequenceNumber="5" Type="Message" UserIDLastNumericValue="0">
+					<FromEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="_cx11DqGAqACBhZp" Id="HIv11DqGAqACBhbZ" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:46:01.656" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</FromEnd>
+					<ToEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="hIh11DqGAqACBhZj" Id="nIv11DqGAqACBhba" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:46:01.657" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</ToEnd>
+					<MasterView>
+						<CommunicationReverseMessage Idref="HIv11DqGAqACBhbX" Name="prikazSadrzaja()"/>
+					</MasterView>
+				</Message>
+			</ModelChildren>
+		</InteractionLifeLineLink>
+		<InteractionLifeLineLink Documentation_plain="" EndRelationshipFromMetaModelElement="_cx11DqGAqACBhZp" EndRelationshipToMetaModelElement="_cx11DqGAqACBhZp" Id="n8911DqGAqACBhab" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:45:05.017" PmLastModified="2017-05-21T17:47:33.051" QualityScore="-1" UserIDLastNumericValue="0">
+			<FromEnd>
+				<InteractionLifeLineLinkEnd Documentation_plain="" EndModelElement="_cx11DqGAqACBhZp" Id="n8911DqGAqACBhac" Multiplicity="Unspecified" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:45:05.017" QualityScore="-1" UserIDLastNumericValue="0"/>
+			</FromEnd>
+			<ToEnd>
+				<InteractionLifeLineLinkEnd Documentation_plain="" EndModelElement="_cx11DqGAqACBhZp" Id="n8911DqGAqACBhad" Multiplicity="Unspecified" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:45:05.017" QualityScore="-1" UserIDLastNumericValue="0"/>
+			</ToEnd>
+			<MasterView>
+				<InteractionLifeLineLink Idref="eC911DqGAqACBhae"/>
+			</MasterView>
+			<ModelChildren>
+				<Message Asynchronous="false" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="_cx11DqGAqACBhZp" EndRelationshipToMetaModelElement="_cx11DqGAqACBhZp" Id="zC911DqGAqACBhai" Name="provjeraPristupnihPodataka()" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:45:05.075" PmLastModified="2017-05-21T17:47:32.886" QualityScore="-1" SequenceNumber="2" Type="Self Message" UserIDLastNumericValue="0">
+					<FromEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="_cx11DqGAqACBhZp" Id="zC911DqGAqACBhaj" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:45:05.075" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</FromEnd>
+					<ToEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="_cx11DqGAqACBhZp" Id="zC911DqGAqACBhak" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:45:05.075" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</ToEnd>
+					<MasterView>
+						<CommunicationMessage Idref="TC911DqGAqACBhah" Name="provjeraPristupnihPodataka()"/>
+					</MasterView>
+				</Message>
+			</ModelChildren>
+		</InteractionLifeLineLink>
+		<InteractionLifeLineLink Documentation_plain="" EndRelationshipFromMetaModelElement="M5FN1DqGAqACBhce" EndRelationshipToMetaModelElement="kJlN1DqGAqACBhck" Id="X81N1DqGAqACBhcr" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:49:10.778" PmLastModified="2017-05-21T17:53:39.795" QualityScore="-1" UserIDLastNumericValue="0">
+			<FromEnd>
+				<InteractionLifeLineLinkEnd Documentation_plain="" EndModelElement="M5FN1DqGAqACBhce" Id="X81N1DqGAqACBhcs" Multiplicity="Unspecified" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:49:10.778" QualityScore="-1" UserIDLastNumericValue="0"/>
+			</FromEnd>
+			<ToEnd>
+				<InteractionLifeLineLinkEnd Documentation_plain="" EndModelElement="kJlN1DqGAqACBhck" Id="X81N1DqGAqACBhct" Multiplicity="Unspecified" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:49:10.778" QualityScore="-1" UserIDLastNumericValue="0"/>
+			</ToEnd>
+			<MasterView>
+				<InteractionLifeLineLink Idref="Yy1N1DqGAqACBhcu"/>
+			</MasterView>
+			<ModelChildren>
+				<Message Asynchronous="false" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="M5FN1DqGAqACBhce" EndRelationshipToMetaModelElement="kJlN1DqGAqACBhck" Id="7.dN1DqGAqACBhc." Name="unosPristupnihPodataka" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:49:24.087" PmLastModified="2017-05-21T17:52:53.814" QualityScore="-1" SequenceNumber="1" Type="Message" UserIDLastNumericValue="0">
+					<FromEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="M5FN1DqGAqACBhce" Id="H.dN1DqGAqACBhc_" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:49:24.088" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</FromEnd>
+					<ToEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="kJlN1DqGAqACBhck" Id="H.dN1DqGAqACBhdA" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:49:24.088" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</ToEnd>
+					<MasterView>
+						<CommunicationMessage Idref="7.dN1DqGAqACBhc9" Name="unosPristupnihPodataka"/>
+					</MasterView>
+				</Message>
+				<Message Asynchronous="false" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="kJlN1DqGAqACBhck" EndRelationshipToMetaModelElement="M5FN1DqGAqACBhce" Id="cibN1DqGAqACBhdk" Name="odobravanjePristupa()" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:49:55.918" PmLastModified="2017-05-21T17:53:06.328" QualityScore="-1" SequenceNumber="3" Type="Message" UserIDLastNumericValue="0">
+					<FromEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="kJlN1DqGAqACBhck" Id="cibN1DqGAqACBhdl" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:49:55.918" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</FromEnd>
+					<ToEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="M5FN1DqGAqACBhce" Id="cibN1DqGAqACBhdm" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:49:55.918" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</ToEnd>
+					<MasterView>
+						<CommunicationReverseMessage Idref="cibN1DqGAqACBhdj" Name="odobravanjePristupa()"/>
+					</MasterView>
+				</Message>
+				<Message Asynchronous="false" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="M5FN1DqGAqACBhce" EndRelationshipToMetaModelElement="kJlN1DqGAqACBhck" Id="eywt1DqGAqACBheG" Name="potvrdaTerminaGrupnihVjezbi()" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:50:49.310" PmLastModified="2017-05-21T17:53:27.971" QualityScore="-1" SequenceNumber="5" Type="Message" UserIDLastNumericValue="0">
+					<FromEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="M5FN1DqGAqACBhce" Id=".ywt1DqGAqACBheH" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:50:49.311" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</FromEnd>
+					<ToEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="kJlN1DqGAqACBhck" Id=".ywt1DqGAqACBheI" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:50:49.311" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</ToEnd>
+					<MasterView>
+						<CommunicationMessage Idref="eywt1DqGAqACBheF" Name="potvrdaTerminaGrupnihVjezbi()"/>
+					</MasterView>
+				</Message>
+				<Message Asynchronous="false" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="kJlN1DqGAqACBhck" EndRelationshipToMetaModelElement="M5FN1DqGAqACBhce" Id="X2Vt1DqGAqACBhfy" Name="slanjePorukeOUspjesnojRezervaciji()" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:53:29.594" PmLastModified="2017-05-21T17:53:54.425" QualityScore="-1" SequenceNumber="6" Type="Message" UserIDLastNumericValue="0">
+					<FromEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="kJlN1DqGAqACBhck" Id="X2Vt1DqGAqACBhfz" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:53:29.594" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</FromEnd>
+					<ToEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="M5FN1DqGAqACBhce" Id="X2Vt1DqGAqACBhf0" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:53:29.594" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</ToEnd>
+					<MasterView>
+						<CommunicationReverseMessage Idref="X2Vt1DqGAqACBhfx" Name="slanjePorukeOUspjesnojRezervaciji()"/>
+					</MasterView>
+				</Message>
+			</ModelChildren>
+		</InteractionLifeLineLink>
+		<InteractionLifeLineLink Documentation_plain="" EndRelationshipFromMetaModelElement="kJlN1DqGAqACBhck" EndRelationshipToMetaModelElement="kJlN1DqGAqACBhck" Id="wVTN1DqGAqACBhdL" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:49:41.123" PmLastModified="2017-05-21T17:50:14.075" QualityScore="-1" UserIDLastNumericValue="0">
+			<FromEnd>
+				<InteractionLifeLineLinkEnd Documentation_plain="" EndModelElement="kJlN1DqGAqACBhck" Id="wVTN1DqGAqACBhdM" Multiplicity="Unspecified" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:49:41.123" QualityScore="-1" UserIDLastNumericValue="0"/>
+			</FromEnd>
+			<ToEnd>
+				<InteractionLifeLineLinkEnd Documentation_plain="" EndModelElement="kJlN1DqGAqACBhck" Id="wVTN1DqGAqACBhdN" Multiplicity="Unspecified" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:49:41.123" QualityScore="-1" UserIDLastNumericValue="0"/>
+			</ToEnd>
+			<MasterView>
+				<InteractionLifeLineLink Idref="7NTN1DqGAqACBhdO"/>
+			</MasterView>
+			<ModelChildren>
+				<Message Asynchronous="false" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="kJlN1DqGAqACBhck" EndRelationshipToMetaModelElement="kJlN1DqGAqACBhck" Id="AtTN1DqGAqACBhdS" Name="provjeraPristupnihPodataka()" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:49:41.312" PmLastModified="2017-05-21T17:50:14.052" QualityScore="-1" SequenceNumber="2" Type="Self Message" UserIDLastNumericValue="0">
+					<FromEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="kJlN1DqGAqACBhck" Id="AtTN1DqGAqACBhdT" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:49:41.312" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</FromEnd>
+					<ToEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="kJlN1DqGAqACBhck" Id="AtTN1DqGAqACBhdU" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:49:41.312" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</ToEnd>
+					<MasterView>
+						<CommunicationMessage Idref="AtTN1DqGAqACBhdR" Name="provjeraPristupnihPodataka()"/>
+					</MasterView>
+				</Message>
+			</ModelChildren>
+		</InteractionLifeLineLink>
+		<InteractionLifeLineLink Documentation_plain="" EndRelationshipFromMetaModelElement="M5FN1DqGAqACBhce" EndRelationshipToMetaModelElement="M5FN1DqGAqACBhce" Id="sefN1DqGAqACBhdx" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:50:29.517" PmLastModified="2017-05-21T17:51:56.064" QualityScore="-1" UserIDLastNumericValue="0">
+			<FromEnd>
+				<InteractionLifeLineLinkEnd Documentation_plain="" EndModelElement="M5FN1DqGAqACBhce" Id="sefN1DqGAqACBhdy" Multiplicity="Unspecified" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:50:29.517" QualityScore="-1" UserIDLastNumericValue="0"/>
+			</FromEnd>
+			<ToEnd>
+				<InteractionLifeLineLinkEnd Documentation_plain="" EndModelElement="M5FN1DqGAqACBhce" Id="sefN1DqGAqACBhdz" Multiplicity="Unspecified" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:50:29.517" QualityScore="-1" UserIDLastNumericValue="0"/>
+			</ToEnd>
+			<MasterView>
+				<InteractionLifeLineLink Idref="rBfN1DqGAqACBhd0"/>
+			</MasterView>
+			<ModelChildren>
+				<Message Asynchronous="false" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="M5FN1DqGAqACBhce" EndRelationshipToMetaModelElement="M5FN1DqGAqACBhce" Id="ghfN1DqGAqACBhd4" Name="odabirTerminaGrupnihVjezbi" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:50:29.697" PmLastModified="2017-05-21T17:51:56.067" QualityScore="-1" SequenceNumber="4" Type="Self Message" UserIDLastNumericValue="0">
+					<FromEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="M5FN1DqGAqACBhce" Id="ghfN1DqGAqACBhd5" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:50:29.697" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</FromEnd>
+					<ToEnd>
+						<MessageEnd Documentation_plain="" EndModelElement="M5FN1DqGAqACBhce" Id="ghfN1DqGAqACBhd6" PmAuthor="Lamija" PmCreateDateTime="2017-05-21T17:50:29.697" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</ToEnd>
+					<MasterView>
+						<CommunicationMessage Idref="ghfN1DqGAqACBhd3" Name="odabirTerminaGrupnihVjezbi"/>
+					</MasterView>
+				</Message>
+			</ModelChildren>
+		</InteractionLifeLineLink>
+	</Models>
+</Project>
