@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="iGym.PocetnaUposlenik"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:iGym"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="808.819">
+    <RelativePanel Background="LightSlateGray" Margin="0,0,0,-165">
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="66" Margin="0,0,-807,-64" VerticalAlignment="Top" Width="809">
+            <Button Content="Dodaj..." HorizontalAlignment="Left" Height="46" Margin="581,9,0,0" VerticalAlignment="Top" Width="217" FontSize="18"/>
+        </Border>
+        <TextBlock HorizontalAlignment="Left" Height="56" Margin="10,10,-200,-46" TextWrapping="Wrap" Text="Zabiljeske" VerticalAlignment="Top" Width="252" FontWeight="Bold" FontSize="36"/>
+        <DatePicker HorizontalAlignment="Left" Height="53" Margin="10,71,0,-92" VerticalAlignment="Top" Width="279"/>
+        <TextBox HorizontalAlignment="Left" Height="161" Margin="10,108,-458,-237" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="519"/>
+        <DatePicker HorizontalAlignment="Left" Height="53" Margin="10,280,0,-301" VerticalAlignment="Top" Width="279"/>
+        <TextBox HorizontalAlignment="Left" Height="161" Margin="10,317,-458,-446" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="519"/>
+        <DatePicker HorizontalAlignment="Left" Height="53" Margin="10,491,0,-512" VerticalAlignment="Top" Width="279"/>
+        <TextBox HorizontalAlignment="Left" Height="161" Margin="10,528,-458,-657" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="519"/>
+        <ScrollBar HorizontalAlignment="Left" Height="825" Margin="764,40,-797,-841" VerticalAlignment="Top" Width="45"/>
+    </RelativePanel>
+</Page>
