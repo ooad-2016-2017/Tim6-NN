@@ -95,10 +95,20 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Clan.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Obrok.cs" />
+    <Compile Include="Osoba.cs" />
+    <Compile Include="planIshrane.cs" />
+    <Compile Include="ProgramVjezbanja.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Teretana.cs" />
+    <Compile Include="Trener.cs" />
+    <Compile Include="Validacije.cs" />
+    <Compile Include="Vjezba.cs" />
+    <Compile Include="Zaposlenik.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
