@@ -24,7 +24,7 @@
             <TextBox HorizontalAlignment="Left" Height="18" Margin="264,578,-328,-564" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="135"/>
             <TextBox HorizontalAlignment="Left" Height="18" Margin="264,634,-328,-620" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="135"/>
             <Button x:Name="dugmeUposlenikRegistracija" Content="Registracija" HorizontalAlignment="Left" Height="32" Margin="253,521,-334,-521" VerticalAlignment="Top" Width="146"/>
-            <Button x:Name="dugmeUposlenikUplataClanarine" Content="Dalje..." HorizontalAlignment="Left" Height="32" Margin="253,690,-334,-690" VerticalAlignment="Top" Width="146"/>
+            <Button x:Name="dugmeUposlenikUplataClanarine" Content="Dalje..." HorizontalAlignment="Left" Height="32" Margin="253,690,-334,-690" VerticalAlignment="Top" Width="146" Click="Klik_NovaUplataClanarine"/>
             <Button x:Name="dugmeUposlenikPretraga" Content="Pretrazi" HorizontalAlignment="Left" Height="32" Margin="445,578,-526,-578" VerticalAlignment="Top" Width="146"/>
             <Button x:Name="dugmeUposlenikBrisanjeClana" Content="Brisi" HorizontalAlignment="Left" Height="32" Margin="445,634,-526,-634" VerticalAlignment="Top" Width="146"/>
 

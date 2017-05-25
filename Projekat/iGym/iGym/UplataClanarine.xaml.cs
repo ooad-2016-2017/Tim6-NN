@@ -20,16 +20,11 @@ namespace iGym
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class PocetnaUposlenik : Page
+    public sealed partial class UplataClanarine : Page
     {
-        public PocetnaUposlenik()
+        public UplataClanarine()
         {
             this.InitializeComponent();
-        }
-
-        private void Klik_NovaUplataClanarine(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
