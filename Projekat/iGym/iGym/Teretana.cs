@@ -31,5 +31,49 @@ namespace iGym
         {
             programi.Add(p);
         }
+
+        public void RegistrujNovogClana(string ime, string prezime, DateTime d, string a, string br, DateTime cl, double iznos)
+        {
+            if (ProvjeriPostojiLiClan(ime, prezime, d)) throw new Exception("Clan vec postoji!");
+            Clan c = new Clan(ime, prezime, d, a, br, cl, iznos);
+            dodajClana(c);
+        }
+
+        public void UplataClanarine(int registracijskiBroj)
+        {
+            bool b = false;
+            foreach (Clan x in clanovi)
+            {
+                if(x.RegistracijskiBroj == registracijskiBroj)
+                {
+                    x.PosljednjaUplataClanarine = DateTime.Now;
+                    b = true;
+                    break;
+                }
+            }
+            if (!b) throw new Exception("Nije pronadjen korisnik s tim registracijskim brojem");
+        }
+
+        public int VratiRegistracijskiBrojClana(string i, string p, DateTime d)
+        {
+            foreach(Clan x in clanovi)
+            {
+                if (x.Ime == i && x.Prezime == p && x.DatumRodjenja == d)
+                {
+                    return x.RegistracijskiBroj;
+                }
+            }
+            throw new Exception("Nije pronadjen korisnik s tim reg. br");
+        }
+
+        
+        public Boolean ProvjeriPostojiLiClan(string ime, string prezime, DateTime d)
+        {
+            foreach (Clan x in clanovi)
+            {
+                if (x.Ime == ime && x.Prezime == prezime && x.DatumRodjenja == d) return true;
+            }
+            return true;
+        }
     }
 }

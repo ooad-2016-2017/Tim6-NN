@@ -11,13 +11,20 @@ namespace iGym
         static int regBr=100;
         string korisnickoIme;
         string sifra;
+        DateTime posljednjaUplataClanarine;
+        double iznosClanarine;
         int registracijskiBroj;
 
-        public Clan(string i, string p, DateTime d, string a, string br, string kor, string sif): base(i,p,d,a,br)
+        public Clan(string i, string p, DateTime d, string a, string br, DateTime cl, double iznos): base(i,p,d,a,br)
         {
-            KorisnickoIme = kor;
-            Sifra = sif;
-            registracijskiBroj = dajNoviRegBr();
+            PosljednjaUplataClanarine = cl;
+            IznosClanarine = iznos;
+            RegistracijskiBroj = dajNoviRegBr();
+        }
+        public void postaviKorisnickoImeISifru(string ime, string sifra)
+        {
+            KorisnickoIme = ime;
+            Sifra = sifra;
         }
 
         public string KorisnickoIme
@@ -43,6 +50,45 @@ namespace iGym
             set
             {
                 sifra = value;
+            }
+        }
+
+        public DateTime PosljednjaUplataClanarine
+        {
+            get
+            {
+                return posljednjaUplataClanarine;
+            }
+
+            set
+            {
+                posljednjaUplataClanarine = value;
+            }
+        }
+
+        public double IznosClanarine
+        {
+            get
+            {
+                return iznosClanarine;
+            }
+
+            set
+            {
+                iznosClanarine = value;
+            }
+        }
+
+        public int RegistracijskiBroj
+        {
+            get
+            {
+                return registracijskiBroj;
+            }
+
+            set
+            {
+                registracijskiBroj = value;
             }
         }
 

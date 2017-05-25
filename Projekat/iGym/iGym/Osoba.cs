@@ -34,24 +34,13 @@ namespace iGym
 
             set
             {
-                ime = value;
+                if (Validacije.OsobaJelIspravnoIme(value))
+                    ime = value;
+                else throw new Exception("Ime nije validno");
             }
         }
 
         public string Prezime
-        {
-            get
-            {
-                return Prezime1;
-            }
-
-            set
-            {
-                Prezime1 = value;
-            }
-        }
-
-        public string Prezime1
         {
             get
             {
@@ -60,10 +49,12 @@ namespace iGym
 
             set
             {
-                prezime = value;
+                if (Validacije.OsobaJelIspravnoPrezime(value))
+                    prezime = value;
+                else throw new Exception("Prezime nije validno");
             }
         }
-
+        
         public DateTime DatumRodjenja
         {
             get
@@ -86,7 +77,9 @@ namespace iGym
 
             set
             {
-                adresa = value;
+                if (Validacije.OsobaJelIspravnaAdresa(value))
+                    adresa = value;
+                else throw new Exception("Adresa nije validna");
             }
         }
 
@@ -99,7 +92,10 @@ namespace iGym
 
             set
             {
-                kontaktTelefon = value;
+                if (Validacije.OsobaJelIspravanBrTel(value))
+                    kontaktTelefon = value;
+                else throw new Exception("Br.tel nije validan");
+                
             }
         }
     }
