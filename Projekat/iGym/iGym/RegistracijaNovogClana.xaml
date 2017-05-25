@@ -11,7 +11,7 @@
         <RelativePanel Background="LightSlateGray" Margin="20,20,20,20">
             <TextBlock Text="Profil korisnika" x:Name="profil" Margin="50,50,0,0"></TextBlock>
             <Image x:Name="Slika" Margin="40,20,0,0" Height="250" Width="220" Source="/Assets/gymtime.jpg" RelativePanel.Below="profil"></Image>
-            <Button x:Name="DugmeUnesiSliku" RelativePanel.Below="Slika" Content="Ucitaj sliku" Margin="100,20,0,0"></Button>
+            <Button x:Name="DugmeUnesiSliku" RelativePanel.Below="Slika"  Content="Ucitaj sliku" Margin="100,20,0,0"></Button>
             <TextBlock x:Name="profilImeLabela" Text="Ime: " RelativePanel.RightOf="Slika" RelativePanel.Below="profil" Margin="40,20,0,0"></TextBlock>
             <TextBlock x:Name="profilPrezimeLabela" Text="Prezime: " RelativePanel.RightOf="Slika" RelativePanel.Below="profilImeLabela" Margin="40,20,0,0"></TextBlock>
             <TextBlock x:Name="profilSpolLabela" Text="Spol: " RelativePanel.RightOf="Slika" RelativePanel.Below="profilPrezimeLabela" Margin="40,20,0,0"></TextBlock>

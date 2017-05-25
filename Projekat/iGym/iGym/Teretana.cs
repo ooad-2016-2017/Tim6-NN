@@ -75,5 +75,28 @@ namespace iGym
             }
             return true;
         }
+
+        public Boolean provjeriPostojiLiKorisnickoIme(string ime)
+        {
+            foreach (Clan x in clanovi)
+            {
+                if (x.KorisnickoIme == ime ) return true;
+            }
+            return true;
+        }
+        
+        public Boolean provjeriPristupnePodatke(string ime, string sifra)
+        {
+            foreach(Clan x in clanovi)
+            {
+                if(x.KorisnickoIme==ime)
+                {
+                    if (x.Sifra == sifra)
+                        return true;
+                    else throw new Exception("Neispravna sifra.");
+                }
+            }
+            throw new Exception("Neispravno korisnicko ime.");
+        }
     }
 }
