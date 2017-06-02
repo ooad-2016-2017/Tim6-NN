@@ -1,0 +1,48 @@
+STRUKTURALNI PATERNI:
+
+1. Adapter patern
+Prilikom daljeg rada na projektu mogla bi se javiti potreba za dodavanjem novih funkcionalnosti sistema. U tom slucaju najbolje bi bilo koristiti Adapter patern.
+Adapter patern bi se koristio ako bismo npr. htjeli dodati nove opcije prilikom koristenja aplikacije iGym. Na taj način se ne bi morale mijenjati vec postojece klase.
+
+2. Facade patern
+Ovaj patern bi se mogao koristiti kod prijave clana teretane na aplikaciju. Posto se u bazi podataka cuvaju sve informacije vezane za profil korisnika, prilikom prijave korisnika vrsi se dobavljanje istih. Ovdje mozemo kreirati klase za svaku od ovih funkcionalnosti, te ih pozivati iz Facade klase. Na taj nacin bi se kod prijave korisnika pozivala samo Facade klasa.
+
+3. Decorator patern
+Ovaj patern nije posebno koristan za nas sistem.
+
+4. Bridge patern
+Takodjer, ovaj patern nije posebno koristan za nas sistem.
+
+5. Proxy patern
+Namjena Proxy paterna je da omoguci pristup i kontrolu pristupa stvarnim objektima.
+Kako uposlenik ima neke dodatne mogucnosti prilikom koristenja sistema, koristit cemo proxy patern. Na ovaj nacin ce se onemoguciti pristup metodama i promjena podataka ukoliko korisnik nema odgovarajuce korisnicke podatke.
+
+6. Composite patern
+Ovaj patern nije previse koristan za nas sistem.
+
+7. Flyweight patern
+Ne postoje posebne situacije u kojima bi se ovaj patern mogao iskoristiti.
+
+
+KREACIJSKI PATERNI:
+
+1. Singleton patern
+Ovaj patern bi se mogao iskoristiti za nas sistem. Postoji nekoliko klasa koje rade sa bazom podataka ili vrse odredjene validacije, tako da ih je dovoljno samo jednom instancirati.
+
+2. Prototype patern
+Uloga Prototype paterna je da kreira nove objekte klonirajuci jednu od postojecih prototip instanci (postojeci objekat). Ako je trosak kreiranja novog objekta velik i kreiranje objekta je
+resursno zahtjevno tada se vrsi kloniranje vec postojeceg objekata. Ovaj patern nije previse koristan za nas sistem.
+
+3. Factory method patern
+Ovaj patern ne bi poboljsao nas sistem, tako da ga necemo koristiti.
+
+4. Abstract Factory patern
+Ovaj patern je dosta slican Factory method paternu. Kako uvijek znamo koji nam tip instance treba, ovaj patern nam nije potreban.
+
+5. Builder patern
+Uloga Builder paterna je odvajanje specifikacije kompleksnih objekata od njihove stvarne
+konstrukcije. Analizirajuci nas sistem, vidimo da nema potrebe za ovim paternom.
+
+
+
+
