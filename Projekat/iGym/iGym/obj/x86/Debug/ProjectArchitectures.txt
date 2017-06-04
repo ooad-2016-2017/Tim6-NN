@@ -1,1 +1,1 @@
-C:\Users\toshiba\Desktop\Tim6-NN-master\Tim6-NN-master\Projekat\iGym\iGym\iGym.csproj;x86
+C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\iGym.csproj;x86

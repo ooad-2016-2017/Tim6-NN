@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="iGym.MainPage"
+    x:Class="iGym.Zabiljeske"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:iGym"
@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="419,301,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
+

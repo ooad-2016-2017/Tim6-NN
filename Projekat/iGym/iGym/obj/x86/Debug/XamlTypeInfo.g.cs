@@ -156,25 +156,33 @@ namespace iGym.iGym_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[8];
-            _typeNameTable[0] = "iGym.MainPage";
+            _typeNameTable = new string[12];
+            _typeNameTable[0] = "iGym.PlanIshrane";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "iGym.PlanIshrane";
-            _typeNameTable[4] = "PlanVjezbanja.MainPage";
-            _typeNameTable[5] = "iGym.Prijava";
-            _typeNameTable[6] = "iGym.ProfilKorisnika";
-            _typeNameTable[7] = "iGym.RegistracijaNovogClana";
+            _typeNameTable[3] = "iGym.PocetnaUposlenik";
+            _typeNameTable[4] = "iGym.Prijava";
+            _typeNameTable[5] = "iGym.MainPage";
+            _typeNameTable[6] = "PlanVjezbanja.MainPage";
+            _typeNameTable[7] = "iGym.ProfilKorisnik";
+            _typeNameTable[8] = "iGym.RegistracijaNovogClana";
+            _typeNameTable[9] = "iGym.Savjeti";
+            _typeNameTable[10] = "iGym.UplataClanarine";
+            _typeNameTable[11] = "iGym.Zabiljeske";
 
-            _typeTable = new global::System.Type[8];
-            _typeTable[0] = typeof(global::iGym.MainPage);
+            _typeTable = new global::System.Type[12];
+            _typeTable[0] = typeof(global::iGym.PlanIshrane);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::iGym.PlanIshrane);
-            _typeTable[4] = typeof(global::PlanVjezbanja.MainPage);
-            _typeTable[5] = typeof(global::iGym.Prijava);
-            _typeTable[6] = typeof(global::iGym.ProfilKorisnika);
-            _typeTable[7] = typeof(global::iGym.RegistracijaNovogClana);
+            _typeTable[3] = typeof(global::iGym.PocetnaUposlenik);
+            _typeTable[4] = typeof(global::iGym.Prijava);
+            _typeTable[5] = typeof(global::iGym.MainPage);
+            _typeTable[6] = typeof(global::PlanVjezbanja.MainPage);
+            _typeTable[7] = typeof(global::iGym.ProfilKorisnik);
+            _typeTable[8] = typeof(global::iGym.RegistracijaNovogClana);
+            _typeTable[9] = typeof(global::iGym.Savjeti);
+            _typeTable[10] = typeof(global::iGym.UplataClanarine);
+            _typeTable[11] = typeof(global::iGym.Zabiljeske);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -209,12 +217,16 @@ namespace iGym.iGym_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::iGym.MainPage(); }
-        private object Activate_3_PlanIshrane() { return new global::iGym.PlanIshrane(); }
-        private object Activate_4_MainPage() { return new global::PlanVjezbanja.MainPage(); }
-        private object Activate_5_Prijava() { return new global::iGym.Prijava(); }
-        private object Activate_6_ProfilKorisnika() { return new global::iGym.ProfilKorisnika(); }
-        private object Activate_7_RegistracijaNovogClana() { return new global::iGym.RegistracijaNovogClana(); }
+        private object Activate_0_PlanIshrane() { return new global::iGym.PlanIshrane(); }
+        private object Activate_3_PocetnaUposlenik() { return new global::iGym.PocetnaUposlenik(); }
+        private object Activate_4_Prijava() { return new global::iGym.Prijava(); }
+        private object Activate_5_MainPage() { return new global::iGym.MainPage(); }
+        private object Activate_6_MainPage() { return new global::PlanVjezbanja.MainPage(); }
+        private object Activate_7_ProfilKorisnik() { return new global::iGym.ProfilKorisnik(); }
+        private object Activate_8_RegistracijaNovogClana() { return new global::iGym.RegistracijaNovogClana(); }
+        private object Activate_9_Savjeti() { return new global::iGym.Savjeti(); }
+        private object Activate_10_UplataClanarine() { return new global::iGym.UplataClanarine(); }
+        private object Activate_11_Zabiljeske() { return new global::iGym.Zabiljeske(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -226,9 +238,9 @@ namespace iGym.iGym_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  iGym.MainPage
+            case 0:   //  iGym.PlanIshrane
                 userType = new global::iGym.iGym_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+                userType.Activator = Activate_0_PlanIshrane;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -241,37 +253,65 @@ namespace iGym.iGym_XamlTypeInfo
                 xamlType = new global::iGym.iGym_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  iGym.PlanIshrane
+            case 3:   //  iGym.PocetnaUposlenik
                 userType = new global::iGym.iGym_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_PlanIshrane;
+                userType.Activator = Activate_3_PocetnaUposlenik;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  PlanVjezbanja.MainPage
+            case 4:   //  iGym.Prijava
                 userType = new global::iGym.iGym_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_MainPage;
+                userType.Activator = Activate_4_Prijava;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  iGym.Prijava
+            case 5:   //  iGym.MainPage
                 userType = new global::iGym.iGym_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_Prijava;
+                userType.Activator = Activate_5_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 6:   //  iGym.ProfilKorisnika
+            case 6:   //  PlanVjezbanja.MainPage
                 userType = new global::iGym.iGym_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_ProfilKorisnika;
+                userType.Activator = Activate_6_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 7:   //  iGym.RegistracijaNovogClana
+            case 7:   //  iGym.ProfilKorisnik
                 userType = new global::iGym.iGym_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_RegistracijaNovogClana;
+                userType.Activator = Activate_7_ProfilKorisnik;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  iGym.RegistracijaNovogClana
+                userType = new global::iGym.iGym_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_8_RegistracijaNovogClana;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 9:   //  iGym.Savjeti
+                userType = new global::iGym.iGym_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_9_Savjeti;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 10:   //  iGym.UplataClanarine
+                userType = new global::iGym.iGym_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_10_UplataClanarine;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 11:   //  iGym.Zabiljeske
+                userType = new global::iGym.iGym_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_Zabiljeske;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

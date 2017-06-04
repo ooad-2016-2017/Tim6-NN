@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="iGym.BlankPage3"
+    x:Class="iGym.RegistracijaNovogClana"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:iGym"
@@ -18,10 +18,12 @@
                 <TextBlock x:Name="profilAdresaLabela" Text="Adresa: " RelativePanel.RightOf="Slika" RelativePanel.Below="profilBrTelLabela" Margin="40,20,0,0"></TextBlock>
                 <TextBlock x:Name="profilClanarinaLabela" Text="Iznos mjesecne clanarine: " RelativePanel.RightOf="Slika"  RelativePanel.Below="DugmeUnesiSliku" Margin="40,100,0,0"></TextBlock>
                 <TextBlock x:Name="profilDatumUplateLabela" Text="Datum uplate posljednje clanarine: " RelativePanel.RightOf="Slika"  RelativePanel.Below="profilClanarinaLabela" Margin="40,20,0,0"></TextBlock>
+            <Button x:Name="DugmeRegistruj" Content="Registruj" RelativePanel.Below="ProfilDatumUplate" RelativePanel.RightOf="ProfilDatumUplate" Margin="100,30,0,0" Width="120"></Button>
+            <Button x:Name="DugmeIdinazad" Content="Idi nazad" RelativePanel.Below="ProfilDatumUplate" RelativePanel.LeftOf="profilDatumUplateLabela" Margin="100,30,0,0" Width="120" Click="Klik_RegistracijaIdiNazad"></Button>
 
 
 
-                <TextBox x:Name="ProfilIme" RelativePanel.Below="profil" Margin="40,10,0,0" Width="300" RelativePanel.RightOf="profilImeLabela"></TextBox>
+            <TextBox x:Name="ProfilIme" RelativePanel.Below="profil" Margin="40,10,0,0" Width="300" RelativePanel.RightOf="profilImeLabela"></TextBox>
                 <TextBox x:Name="ProfilPrezime" RelativePanel.Below="ProfilIme" Width="300" Margin="40,10,0,0" RelativePanel.RightOf="profilPrezimeLabela"></TextBox>
                 <RadioButton x:Name="ProfilSpolMuski" RelativePanel.Below="ProfilPrezime" Width="150" Content="Muski" Margin="50,10,0,0" RelativePanel.RightOf="profilSpolLabela"></RadioButton>
                 <RadioButton x:Name="ProfilSpolZenski" RelativePanel.Below="ProfilPrezime" Width="150" Content="Zenski" Margin="40,10,0,0" RelativePanel.RightOf="ProfilSpolMuski"></RadioButton>

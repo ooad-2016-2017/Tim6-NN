@@ -95,50 +95,47 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="BlankPage3.xaml.cs">
-      <DependentUpon>BlankPage3.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="PlanIshrane.xaml.cs">
+    <Compile Include="forme\PlanIshrane.xaml.cs">
       <DependentUpon>PlanIshrane.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PocetnaUposlenik.xaml.cs">
+    <Compile Include="forme\PlanVjezbanja.xaml.cs">
+      <DependentUpon>PlanVjezbanja.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="forme\PocetnaKorisnik.xaml.cs">
+      <DependentUpon>PocetnaKorisnik.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="forme\PocetnaUposlenik.xaml.cs">
       <DependentUpon>PocetnaUposlenik.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Prijava.xaml.cs">
+    <Compile Include="forme\Prijava.xaml.cs">
       <DependentUpon>Prijava.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Clan.cs" />
-    <Compile Include="MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Obrok.cs" />
-    <Compile Include="Osoba.cs" />
-    <Compile Include="planIshrane.cs" />
-    <Compile Include="ProfilKorisnik.xaml.cs">
+    <Compile Include="klase\Clan.cs" />
+    <Compile Include="klase\Obrok.cs" />
+    <Compile Include="klase\Osoba.cs" />
+    <Compile Include="klase\planIshrane.cs" />
+    <Compile Include="forme\ProfilKorisnik.xaml.cs">
       <DependentUpon>ProfilKorisnik.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ProgramVjezbanja.cs" />
+    <Compile Include="klase\ProgramVjezbanja.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegistracijaNovogClana.xaml.cs">
+    <Compile Include="forme\RegistracijaNovogClana.xaml.cs">
       <DependentUpon>RegistracijaNovogClana.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Savjeti.xaml.cs">
+    <Compile Include="forme\Savjeti.xaml.cs">
       <DependentUpon>Savjeti.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Teretana.cs" />
-    <Compile Include="Trener.cs" />
-    <Compile Include="UplataClanarine.xaml.cs">
+    <Compile Include="klase\Teretana.cs" />
+    <Compile Include="klase\Trener.cs" />
+    <Compile Include="forme\UplataClanarine.xaml.cs">
       <DependentUpon>UplataClanarine.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Uplate.xaml.cs">
-      <DependentUpon>Uplate.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Validacije.cs" />
-    <Compile Include="Vjezba.cs" />
-    <Compile Include="Zabiljeske.xaml.cs">
+    <Compile Include="klase\Validacije.cs" />
+    <Compile Include="klase\Vjezba.cs" />
+    <Compile Include="forme\Zabiljeske.xaml.cs">
       <DependentUpon>Zabiljeske.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Zaposlenik.cs" />
+    <Compile Include="klase\Zaposlenik.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -164,51 +161,43 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="BlankPage3.xaml">
+    <Page Include="forme\PlanIshrane.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PlanIshrane.xaml">
+    <Page Include="forme\PlanVjezbanja.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PocetnaUposlenik.xaml">
+    <Page Include="forme\PocetnaKorisnik.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Prijava.xaml">
+    <Page Include="forme\PocetnaUposlenik.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="PlanVjezbanja.xaml">
+    <Page Include="forme\Prijava.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ProfilKorisnik.xaml">
+    <Page Include="forme\ProfilKorisnik.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="RegistracijaNovogClana.xaml">
+    <Page Include="forme\RegistracijaNovogClana.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Savjeti.xaml">
+    <Page Include="forme\Savjeti.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="UplataClanarine.xaml">
+    <Page Include="forme\UplataClanarine.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Uplate.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Zabiljeske.xaml">
+    <Page Include="forme\Zabiljeske.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

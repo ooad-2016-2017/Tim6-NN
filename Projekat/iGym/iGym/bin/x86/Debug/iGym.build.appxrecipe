@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>c71c73ad-a678-4701-b527-5731f1223260</PackageIdentityName>
     <PackageIdentityPublisher>CN=toshiba</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\toshiba\Desktop\Tim6-NN-master\Tim6-NN-master\Projekat\iGym\iGym\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\toshiba\Desktop\Tim6-NN-master\Tim6-NN-master\Projekat\iGym\iGym\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\Tim6-NN-master\Tim6-NN-master\Projekat\iGym\iGym\bin\x86\Debug\iGym.exe">
+    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\bin\x86\Debug\iGym.exe">
       <PackagePath>entrypoint\iGym.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toshiba\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -340,43 +340,46 @@
     <AppxPackagedFile Include="C:\Users\toshiba\.nuget\packages\WinRTXamlToolkit.Controls.DataVisualization\2.3.0\lib\uap10.0\WinRTXamlToolkit.Controls.DataVisualization.dll">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\Tim6-NN-master\Tim6-NN-master\Projekat\iGym\iGym\Assets\gymtime.jpg">
+    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\gymtime.jpg">
       <PackagePath>Assets\gymtime.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\Tim6-NN-master\Tim6-NN-master\Projekat\iGym\iGym\Assets\prijava.png">
+    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\savjeti.jpg">
+      <PackagePath>Assets\savjeti.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\prijava.png">
       <PackagePath>Assets\prijava.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\Tim6-NN-master\Tim6-NN-master\Projekat\iGym\iGym\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\Tim6-NN-master\Tim6-NN-master\Projekat\iGym\iGym\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\Tim6-NN-master\Tim6-NN-master\Projekat\iGym\iGym\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\Tim6-NN-master\Tim6-NN-master\Projekat\iGym\iGym\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\Tim6-NN-master\Tim6-NN-master\Projekat\iGym\iGym\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\Tim6-NN-master\Tim6-NN-master\Projekat\iGym\iGym\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\Tim6-NN-master\Tim6-NN-master\Projekat\iGym\iGym\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\Tim6-NN-master\Tim6-NN-master\Projekat\iGym\iGym\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\Tim6-NN-master\Tim6-NN-master\Projekat\iGym\iGym\bin\x86\Debug\iGym.xr.xml">
+    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\bin\x86\Debug\iGym.xr.xml">
       <PackagePath>iGym.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
@@ -394,11 +397,11 @@
     <AppxPackagedFile Include="C:\Users\toshiba\.nuget\packages\WinRTXamlToolkit.Controls.DataVisualization\2.3.0\lib\uap10.0\WinRTXamlToolkit.Controls.DataVisualization\Properties\WinRTXamlToolkit.Controls.DataVisualization.rd.xml">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Properties\WinRTXamlToolkit.Controls.DataVisualization.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\Tim6-NN-master\Tim6-NN-master\Projekat\iGym\iGym\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\Tim6-NN-master\Tim6-NN-master\Projekat\iGym\iGym\bin\x86\Debug\Core\iGym.exe">
+    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\bin\x86\Debug\Core\iGym.exe">
       <PackagePath>iGym.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

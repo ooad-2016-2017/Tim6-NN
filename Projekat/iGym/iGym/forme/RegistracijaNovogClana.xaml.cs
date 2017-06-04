@@ -20,11 +20,16 @@ namespace iGym
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class BlankPage3 : Page
+    public sealed partial class RegistracijaNovogClana : Page
     {
-        public BlankPage3()
+        public RegistracijaNovogClana()
         {
             this.InitializeComponent();
+        }
+
+        private void Klik_RegistracijaIdiNazad(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(PocetnaUposlenik));
         }
     }
 }
