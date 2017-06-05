@@ -26,5 +26,11 @@ namespace iGym
         {
             this.InitializeComponent();
         }
+
+        private void dugmeNazad_Click(object sender, RoutedEventArgs e)
+        {
+            
+                this.Frame.Navigate(typeof(PocetnaKorisnik));
+        }
     }
 }

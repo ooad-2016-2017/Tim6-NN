@@ -11,9 +11,10 @@
         <RelativePanel Background="LightSlateGray" Margin="20,20,20,20">
             <TextBlock x:Name="SavjetiLabela" Text="Savjeti" FontSize="25" Margin="40,30,0,0"></TextBlock>
             <RichTextBlock RelativePanel.Below="SavjetiLabela" Width="500" Margin="40,30,0,0" >
-                <Paragraph> bla blakllkejkjkjrrogjoijpi</Paragraph>
+                <Paragraph>bla blakllkejkjkjrrogjoijpi</Paragraph>
             </RichTextBlock>
             <Image x:Name="slika" HorizontalAlignment="Right" VerticalAlignment="Top" Height="269" Source="/Assets/savjeti.jpg" Margin="0,57,-1145,-126" Width="250"></Image>
+            <Button x:Name="dugmeNazad" Content="Nazad" FontSize="20" HorizontalAlignment="Left" Height="46" VerticalAlignment="Top" Width="174" Margin="40,604,-149,-618" Click="dugmeNazad_Click"/>
 
         </RelativePanel>
 

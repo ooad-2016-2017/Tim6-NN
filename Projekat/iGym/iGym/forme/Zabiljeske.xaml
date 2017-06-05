@@ -11,7 +11,7 @@
         <RelativePanel Background="LightSlateGray" Margin="20,20,20,20">
             <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Text="Zabilješke" Margin="20,30,0,0" FontSize="25"></TextBlock>
             <Border BorderBrush="DarkGray" BorderThickness="1" HorizontalAlignment="Left" Height="70" Margin="0,10,-1238,-78" VerticalAlignment="Top" Width="1240">
-                <Button x:Name="button" Content="Dodaj.." FontSize="24" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="200" Margin="1029,9,0,0"/>
+                <Button x:Name="button" Content="Dodaj.." FontSize="22" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="200" Margin="1029,9,0,0"/>
 
             </Border>
             <DatePicker Margin="20,124,-80,-132" Height="40" Width="356"></DatePicker>
@@ -21,6 +21,7 @@
             <RichEditBox HorizontalAlignment="Left" Height="122" VerticalAlignment="Top" Width="1190" Margin="20,337,-1146,-427"/>
             <DatePicker HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="356" Margin="20,496,-80,-498"/>
             <RichEditBox HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="1190" Margin="20,533,-1146,-621"/>
+            <Button x:Name="dugmeNazad" FontSize="22" Content="Nazad" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="200" Margin="816,20,-940,-32" Click="dugmeNazad_Click"/>
 
         </RelativePanel>
 

@@ -10,6 +10,9 @@ namespace iGym
     {
         public static String admin = "admin";
         public static String sifra = "sifra";
+
+        public static String imeTest = "ja";
+        public static String sifraTest = "jaja";
         List<Trener> treneri;
         List<Clan> clanovi;
         List<ProgramVjezbanja> programi;

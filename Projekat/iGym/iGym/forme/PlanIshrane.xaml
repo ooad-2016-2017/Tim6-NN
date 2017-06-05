@@ -15,12 +15,12 @@
 
                         </CalendarView>
 
-                        <TextBlock Margin="514,25,633,580"  RenderTransformOrigin="0.472,-0.75" Text="Dani" ></TextBlock>
-                        <TextBlock Margin="640,25,520,580" RenderTransformOrigin="0.472,-0.75" Text="Dorucak"></TextBlock>
-                        <TextBlock Margin="750,25,420,580" RenderTransformOrigin="0.472,-0.75" Text="Uzina"></TextBlock>
-                        <TextBlock Margin="860,25,320,580" RenderTransformOrigin="0.472,-0.75" Text="Rucak"></TextBlock>
-                        <TextBlock Margin="970,25,200,580" RenderTransformOrigin="0.472,-0.75" Text="Uzina"></TextBlock>
-                        <TextBlock Margin="1080,25,100,580" RenderTransformOrigin="0.472,-0.75" Text="Vecera"></TextBlock>
+                        <TextBlock Margin="497,33,650,572"  RenderTransformOrigin="0.472,-0.75" Text="Dani" ></TextBlock>
+                        <TextBlock Margin="628,33,532,572" RenderTransformOrigin="0.472,-0.75" Text="Dorucak"></TextBlock>
+                        <TextBlock Margin="739,33,431,572" RenderTransformOrigin="0.472,-0.75" Text="Uzina"></TextBlock>
+                        <TextBlock Margin="850,33,330,572" RenderTransformOrigin="0.472,-0.75" Text="Rucak"></TextBlock>
+                        <TextBlock Margin="961,33,209,572" RenderTransformOrigin="0.472,-0.75" Text="Uzina"></TextBlock>
+                        <TextBlock Margin="1072,33,108,572" RenderTransformOrigin="0.472,-0.75" Text="Vecera"></TextBlock>
                         <ListView x:Name="listView1" Margin="497,58,633,253" Background="Gray" BorderBrush="White" BorderThickness="2" >
 
                             <x:String>Pon</x:String>
@@ -96,8 +96,9 @@
                             <x:String>20g</x:String>
                             <x:String>320kcals</x:String>
                         </ListView>
+                    <Button x:Name="dugmeNazad" Content="Nazad" FontSize="20" Background="Gray" HorizontalAlignment="Left" Margin="88,531,0,0" VerticalAlignment="Top" Height="44" Width="156" Click="dugmeNazad_Click"/>
 
-                    </Grid>
+                </Grid>
                 </PivotItem>
                 <PivotItem Header="Recepti" Background="LightSlateGray">
                     <ScrollViewer>

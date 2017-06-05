@@ -18,8 +18,8 @@
         <TextBlock HorizontalAlignment="Left" Height="56" Margin="60,500,-174,-614" TextWrapping="Wrap" Text="Pretraga clanova" VerticalAlignment="Top" Width="176" FontSize="20"/>
         <TextBlock HorizontalAlignment="Left" Height="56" Margin="60,550,-174,-670" TextWrapping="Wrap" Text="Brisanje clanova" VerticalAlignment="Top" Width="176" FontSize="20"/>
         <TextBlock HorizontalAlignment="Left" Height="56" Margin="60,600,-174,-726" TextWrapping="Wrap" Text="Uplata clanarine" VerticalAlignment="Top" Width="176" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Height="18" Margin="264,500,-328,-564" TextWrapping="Wrap"  VerticalAlignment="Top" Width="135"/>
-        <TextBox HorizontalAlignment="Left" Height="18" Margin="264,550,-328,-620" TextWrapping="Wrap"  VerticalAlignment="Top" Width="135"/>
+        <TextBox HorizontalAlignment="Left" Height="18" Margin="264,500,-328,-564" TextWrapping="Wrap" FontSize="20"  VerticalAlignment="Top" Width="135"/>
+        <TextBox HorizontalAlignment="Left" Height="18" Margin="264,550,-328,-620" TextWrapping="Wrap" FontSize="20" VerticalAlignment="Top" Width="135"/>
         <Button x:Name="dugmeUposlenikRegistracija" Content="Registracija" HorizontalAlignment="Left" Height="32" Margin="253,450,-334,-521" VerticalAlignment="Top" Width="146" Click="Klik_NovaRegistracija"/>
         <Button x:Name="dugmeUposlenikUplataClanarine" Content="Dalje..." HorizontalAlignment="Left" Height="32" Margin="253,600,-334,-690" VerticalAlignment="Top" Width="146" Click="Klik_NovaUplataClanarine"/>
         <Button x:Name="dugmeUposlenikPretraga" Content="Pretrazi" HorizontalAlignment="Left" Height="32" Margin="445,500,-526,-578" VerticalAlignment="Top" Width="146"/>

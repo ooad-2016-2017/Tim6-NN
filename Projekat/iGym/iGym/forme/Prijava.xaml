@@ -13,8 +13,8 @@
 
         <Button x:Name="prijavaDugme" Background="Gray" Content="Prijava" HorizontalAlignment="Left" Margin="537,556,-69,-109" VerticalAlignment="Top" Height="68" Width="259" FontSize="24" RenderTransformOrigin="0.759,-0.61" Click="prijavaDugme_Click"/>
         <TextBlock x:Name="PrijavaSifraLabela" RelativePanel.Below="PrijavaImeLabela" Margin="385,164,205,-154" TextWrapping="Wrap" Text="Šifra:" VerticalAlignment="Top" FontSize="22"/>
-        <TextBox x:Name="PrijavaIme"  TextWrapping="Wrap" Text="" Height="46" Width="339" Margin="51,365,-21,-125" RelativePanel.RightOf="PrijavaImeLabela"/>
-        <PasswordBox x:Name="PrijavaSifra" HorizontalAlignment="Left" Height="46" VerticalAlignment="Top" Width="339" Margin="498,460,-773,-478"/>
+        <TextBox x:Name="PrijavaIme" FontSize="20"  TextWrapping="Wrap" Text="" Height="46" Width="339" Margin="51,365,-21,-125" RelativePanel.RightOf="PrijavaImeLabela"/>
+        <PasswordBox x:Name="PrijavaSifra" FontSize="20" HorizontalAlignment="Left" Height="46" VerticalAlignment="Top" Width="339" Margin="498,460,-773,-478"/>
 
     </RelativePanel>
 </Page>

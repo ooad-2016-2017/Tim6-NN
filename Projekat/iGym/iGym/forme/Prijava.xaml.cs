@@ -36,8 +36,12 @@ namespace iGym
         {
             ime = PrijavaIme.Text;
             sifra = PrijavaSifra.Password;
-            if(ime == Teretana.admin && sifra==Teretana.sifra)
+            if (ime == Teretana.admin && sifra == Teretana.sifra)
                 this.Frame.Navigate(typeof(PocetnaUposlenik));
+
+            else if (ime == Teretana.imeTest && sifra == Teretana.sifraTest)
+                this.Frame.Navigate(typeof(PocetnaKorisnik));
+
         }
     }
 }
