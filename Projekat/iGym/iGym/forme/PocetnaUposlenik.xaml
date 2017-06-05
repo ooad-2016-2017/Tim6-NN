@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <RelativePanel Background="LightSlateGray" Margin="10,0,0,0">
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="72" Margin="0,0,-1268,-70" VerticalAlignment="Top" Width="1270">
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="72" Margin="0,0,-1268,0" VerticalAlignment="Top" Width="1270">
             <Button x:Name="dugmeUposlenikOdjava" Content="ODJAVA" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="230" Margin="1027,-1,0,-1" FontSize="22"/>
         </Border>
         <TextBlock HorizontalAlignment="Left" Height="50" Margin="0,0,-244,-30" TextWrapping="Wrap" Text="POCETNA" VerticalAlignment="Top" Width="306" FontSize="36"/>
