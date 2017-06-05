@@ -26,5 +26,30 @@ namespace iGym
         {
             this.InitializeComponent();
         }
+
+        private void klikNaProfilKorisnika(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ProfilKorisnik));
+        }
+
+        private void klikNaPlanIshrane(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(PlanIshrane));
+        }
+
+        private void DugmePlanVjezbanja_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(PlanVjezbanja));
+        }
+
+        private void klikNaSavjeti(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Savjeti));
+        }
+
+        private void klikNaZabiljeske(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Zabiljeske));
+        }
     }
 }

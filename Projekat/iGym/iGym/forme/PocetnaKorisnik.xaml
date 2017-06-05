@@ -11,11 +11,11 @@
         <RelativePanel Background="LightSlateGray" Margin="20,20,20,20">
 
             <Image x:Name="img" Source="/Assets/prijava.png" Stretch="Fill" Margin="0,0,0,406" />
-            <Button x:Name="DugmeProfil" Content="Profil" Width="220" FontSize="25" Margin="20,400,0,0"></Button>
-            <Button x:Name="DugmePlanIshrane" Content="Plan ishrane" FontSize="25" Width="200" Margin="280,400,0,0"></Button>
-            <Button x:Name="DugmePlanVjezbanja" Content="Plan vjezbanja" Width="200" FontSize="25" Margin="530,400,0,0"></Button>
-            <Button x:Name="Savjeti" Content="Savjeti" Width="200" FontSize="25" Margin="780,400,0,0"></Button>
-            <Button x:Name="DugmeZabiljeske" Content="Zabiljeske" Width="200" FontSize="25" Margin="1030,400,0,0"></Button>
+            <Button x:Name="DugmeProfil" Content="Profil" Width="220" FontSize="25" Margin="20,400,0,0" Height="46" Click="klikNaProfilKorisnika"></Button>
+            <Button x:Name="DugmePlanIshrane" Content="Plan ishrane" FontSize="25" Width="200" Margin="280,400,0,0" Click="klikNaPlanIshrane"></Button>
+            <Button x:Name="DugmePlanVjezbanja" Content="Plan vjezbanja" Width="200" FontSize="25" Margin="530,400,0,0" Click="DugmePlanVjezbanja_Click"></Button>
+            <Button x:Name="Savjeti" Content="Savjeti" Width="200" FontSize="25" Margin="780,400,0,0" Click="klikNaSavjeti"></Button>
+            <Button x:Name="DugmeZabiljeske" Content="Zabiljeske" Width="200" FontSize="25" Margin="1030,400,0,0" Click="klikNaZabiljeske"></Button>
         </RelativePanel>
 
     </Grid>

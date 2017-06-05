@@ -1,0 +1,224 @@
+﻿<Page
+    x:Class="iGym.PlanIshrane"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:iGym"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+        <Grid  Background="LightSlateGray">
+            <Pivot Title="Ishrana" Background="Gray" >
+                <PivotItem Header="Plan ishrane" Background="LightSlateGray">
+                    <Grid>
+                        <CalendarView HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Background="Gray" FirstDayOfWeek="Monday" CalendarItemBackground="LightSlateGray">
+
+                        </CalendarView>
+
+                        <TextBlock Margin="514,25,633,580"  RenderTransformOrigin="0.472,-0.75" Text="Dani" ></TextBlock>
+                        <TextBlock Margin="640,25,520,580" RenderTransformOrigin="0.472,-0.75" Text="Dorucak"></TextBlock>
+                        <TextBlock Margin="750,25,420,580" RenderTransformOrigin="0.472,-0.75" Text="Uzina"></TextBlock>
+                        <TextBlock Margin="860,25,320,580" RenderTransformOrigin="0.472,-0.75" Text="Rucak"></TextBlock>
+                        <TextBlock Margin="970,25,200,580" RenderTransformOrigin="0.472,-0.75" Text="Uzina"></TextBlock>
+                        <TextBlock Margin="1080,25,100,580" RenderTransformOrigin="0.472,-0.75" Text="Vecera"></TextBlock>
+                        <ListView x:ConnectionId='31' x:Name="listView1" Margin="497,58,633,253" Background="Gray" BorderBrush="White" BorderThickness="2" >
+
+                            <x:String>Pon</x:String>
+                            <x:String>Uto</x:String>
+                            <x:String>Sri</x:String>
+                            <x:String>Cet</x:String>
+                            <x:String>Pet</x:String>
+                            <x:String>Sub</x:String>
+                            <x:String>Ned</x:String>
+                        </ListView>
+
+                        <ListView x:ConnectionId='32' x:Name="DorucakLista" Margin="628,58,522,253" BorderBrush="White" BorderThickness="2" >
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                        </ListView>
+
+
+                        <ListView x:ConnectionId='33' x:Name="Uzina1Lista" Margin="739,58,411,253"  BorderBrush="White" BorderThickness="2">
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                        </ListView>
+
+                        <ListView x:ConnectionId='34' x:Name="RucakLista" Margin="850,58,300,253"  BorderBrush="White" BorderThickness="2">
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                        </ListView>
+
+                        <ListView x:ConnectionId='35' x:Name="Uzina2Lista" Margin="961,58,189,253" BorderBrush="White" BorderThickness="2">
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                        </ListView>
+
+                        <ListView x:ConnectionId='36' x:Name="VeceraLista" Margin="1072,58,78,253" BorderBrush="White" BorderThickness="2" >
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                            <x:String>.</x:String>
+                        </ListView>
+
+                        <ListView x:ConnectionId='37' x:Name="Podjela" Margin="497,400,565,20" BorderBrush="White" BorderThickness="2">
+                            <x:String>Ugljikohidrati</x:String>
+                            <x:String>Masti</x:String>
+                            <x:String>Proteini</x:String>
+                            <x:String>Kalorije</x:String>
+
+                        </ListView>
+                        <ListView x:ConnectionId='38' x:Name="Nutricija" Margin="696,400,78,20" BorderBrush="White" BorderThickness="2">
+                            <x:String>3g</x:String>
+                            <x:String>10g</x:String>
+                            <x:String>20g</x:String>
+                            <x:String>320kcals</x:String>
+                        </ListView>
+
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="Recepti" Background="LightSlateGray">
+                    <ScrollViewer>
+                        <StackPanel BorderBrush="Gray" Orientation="Vertical">
+                            <RelativePanel>
+                                <TextBlock Text="Vasi danasnji planirani obroci su:"></TextBlock>
+                            </RelativePanel>
+                            <RelativePanel Margin="0,40">
+
+                                <TextBlock x:ConnectionId='25' x:Name="DorucakNaziv" Text="Naziv Dorucka"></TextBlock>
+                                <Image x:ConnectionId='26' x:Name="DorucakSlika" Height="288" Width="276" Source="Assets/gymtime.jpg" HorizontalAlignment="Left" RelativePanel.Below="DorucakNaziv" ></Image>
+                                <TextBlock x:ConnectionId='27' x:Name="sastojci" Text="Sastojci: " RelativePanel.RightOf="DorucakSlika"></TextBlock>
+                                <ListView x:ConnectionId='28' x:Name="DorucakSastojci" RelativePanel.RightOf="sastojci">
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                </ListView>
+                                <TextBlock x:ConnectionId='29' x:Name="priprema" Text="Priprema:" RelativePanel.Below="DorucakSlika"></TextBlock>
+                                <ListView x:ConnectionId='30' x:Name="DorucakPriprema" RelativePanel.RightOf="priprema" RelativePanel.Below="DorucakSlika">
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                </ListView>
+                            </RelativePanel>
+                            <RelativePanel>
+
+                                <TextBlock x:ConnectionId='19' x:Name="Uzina1Naziv" Text="Naziv uzine1"></TextBlock>
+                                <Image x:ConnectionId='20' x:Name="Uzina1Slika" Height="288" Width="276" Source="Assets/gymtime.jpg" HorizontalAlignment="Left" RelativePanel.Below="Uzina1Naziv" ></Image>
+                                <TextBlock x:ConnectionId='21' x:Name="sastojci1" Text="Sastojci: " RelativePanel.RightOf="Uzina1Slika"></TextBlock>
+                                <ListView x:ConnectionId='22' x:Name="Uzina1Sastojci" RelativePanel.RightOf="sastojci1">
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                </ListView>
+                                <TextBlock x:ConnectionId='23' x:Name="priprema1" Text="Priprema:" RelativePanel.Below="Uzina1Slika"></TextBlock>
+                                <ListView x:ConnectionId='24' x:Name="Uzina1Priprema" RelativePanel.RightOf="priprema1" RelativePanel.Below="Uzina1Slika">
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                </ListView>
+                            </RelativePanel>
+
+                            <RelativePanel >
+
+                                <TextBlock x:ConnectionId='13' x:Name="RucakNaziv" Text="Naziv Rucka"></TextBlock>
+                                <Image x:ConnectionId='14' x:Name="RucakSlika" Height="288" Width="276" Source="Assets/gymtime.jpg" HorizontalAlignment="Left" RelativePanel.Below="RucakNaziv" ></Image>
+                                <TextBlock x:ConnectionId='15' x:Name="sastojci2" Text="Sastojci: " RelativePanel.RightOf="RucakSlika"></TextBlock>
+                                <ListView x:ConnectionId='16' x:Name="RucakSastojci" RelativePanel.RightOf="sastojci2">
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                </ListView>
+                                <TextBlock x:ConnectionId='17' x:Name="priprema2" Text="Priprema:" RelativePanel.Below="RucakSlika"></TextBlock>
+                                <ListView x:ConnectionId='18' x:Name="RucakPriprema" RelativePanel.RightOf="priprema2" RelativePanel.Below="RucakSlika">
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                </ListView>
+                            </RelativePanel>
+
+                            <RelativePanel>
+
+                                <TextBlock x:ConnectionId='7' x:Name="Uzina2Naziv" Text="Naziv uzine2"></TextBlock>
+                                <Image x:ConnectionId='8' x:Name="Uzina2Slika" Height="288" Width="276" Source="Assets/gymtime.jpg" HorizontalAlignment="Left" RelativePanel.Below="Uzina2Naziv" ></Image>
+                                <TextBlock x:ConnectionId='9' x:Name="sastojci3" Text="Sastojci: " RelativePanel.RightOf="Uzina2Slika"></TextBlock>
+                                <ListView x:ConnectionId='10' x:Name="Uzina2Sastojci" RelativePanel.RightOf="sastojci3">
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                </ListView>
+                                <TextBlock x:ConnectionId='11' x:Name="priprema3" Text="Priprema:" RelativePanel.Below="Uzina2Slika"></TextBlock>
+                                <ListView x:ConnectionId='12' x:Name="Uzina2Priprema" RelativePanel.RightOf="priprema3" RelativePanel.Below="Uzina2Slika">
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                </ListView>
+                            </RelativePanel>
+
+                            <RelativePanel>
+
+                                <TextBlock x:ConnectionId='1' x:Name="VeceraNaziv" Text="Naziv Vecere"></TextBlock>
+                                <Image x:ConnectionId='2' x:Name="VeceraSlika" Height="288" Width="276" Source="Assets/gymtime.jpg" HorizontalAlignment="Left" RelativePanel.Below="VeceraNaziv" ></Image>
+                                <TextBlock x:ConnectionId='3' x:Name="sastojci4" Text="Sastojci: " RelativePanel.RightOf="VeceraSlika"></TextBlock>
+                                <ListView x:ConnectionId='4' x:Name="VeceraSastojci" RelativePanel.RightOf="sastojci4">
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                </ListView>
+                                <TextBlock x:ConnectionId='5' x:Name="priprema4" Text="Priprema:" RelativePanel.Below="VeceraSlika"></TextBlock>
+                                <ListView x:ConnectionId='6' x:Name="VeceraPriprema" RelativePanel.RightOf="priprema4" RelativePanel.Below="VeceraSlika">
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                    <x:String>.</x:String>
+                                </ListView>
+                            </RelativePanel>
+
+                        </StackPanel>
+                    </ScrollViewer>
+                </PivotItem>
+            </Pivot>
+
+        </Grid>
+    </Page>
+

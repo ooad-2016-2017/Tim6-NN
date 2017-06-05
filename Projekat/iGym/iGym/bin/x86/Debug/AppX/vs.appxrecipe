@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>c71c73ad-a678-4701-b527-5731f1223260</PackageIdentityName>
     <PackageIdentityPublisher>CN=toshiba</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-28T16:50:35.260</Modified>
+      <Modified>2017-06-05T16:56:04.781</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\bin\x86\Debug\iGym.exe">
+    <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\bin\x86\Debug\iGym.exe">
       <PackagePath>entrypoint\iGym.exe</PackagePath>
-      <Modified>2017-05-28T16:50:33.780</Modified>
+      <Modified>2017-06-05T16:56:03.767</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toshiba\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -456,59 +456,59 @@
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization.dll</PackagePath>
       <Modified>2017-02-12T11:18:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\gymtime.jpg">
+    <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\Assets\gymtime.jpg">
       <PackagePath>Assets\gymtime.jpg</PackagePath>
       <Modified>2017-05-22T07:58:01.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\savjeti.jpg">
+    <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\Assets\savjeti.jpg">
       <PackagePath>Assets\savjeti.jpg</PackagePath>
       <Modified>2017-05-22T07:58:01.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\prijava.png">
+    <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\Assets\prijava.png">
       <PackagePath>Assets\prijava.png</PackagePath>
       <Modified>2017-05-22T07:58:01.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2017-05-22T07:58:01.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-22T07:58:01.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-22T07:58:01.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-22T07:58:01.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-22T07:58:01.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-22T07:58:01.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-22T07:58:01.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-05-22T07:58:01.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\bin\x86\Debug\iGym.xr.xml">
+    <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\bin\x86\Debug\iGym.xr.xml">
       <PackagePath>iGym.xr.xml</PackagePath>
-      <Modified>2017-05-28T16:50:33.334</Modified>
+      <Modified>2017-06-05T16:56:03.519</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -530,14 +530,14 @@
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Properties\WinRTXamlToolkit.Controls.DataVisualization.rd.xml</PackagePath>
       <Modified>2017-02-12T11:18:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-28T16:50:34.765</Modified>
+      <Modified>2017-06-05T16:56:04.499</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toshiba\Desktop\OOAD\Tim6-NN-master\Projekat\iGym\iGym\bin\x86\Debug\Core\iGym.exe">
+    <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\bin\x86\Debug\Core\iGym.exe">
       <PackagePath>iGym.exe</PackagePath>
-      <Modified>2017-05-28T16:50:35.250</Modified>
+      <Modified>2017-06-05T16:56:04.774</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

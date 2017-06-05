@@ -8,8 +8,8 @@ namespace iGym
 {
     public class Teretana
     {
-        String admin = "admin";
-        String sifra = "sifra";
+        public static String admin = "admin";
+        public static String sifra = "sifra";
         List<Trener> treneri;
         List<Clan> clanovi;
         List<ProgramVjezbanja> programi;

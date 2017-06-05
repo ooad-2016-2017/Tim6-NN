@@ -22,9 +22,22 @@ namespace iGym
     /// </summary>
     public sealed partial class Prijava : Page
     {
+        String ime;
+        String sifra;
         public Prijava()
         {
             this.InitializeComponent();
+            
+        }
+
+        
+
+        private void prijavaDugme_Click(object sender, RoutedEventArgs e)
+        {
+            ime = PrijavaIme.Text;
+            sifra = PrijavaSifra.Password;
+            if(ime == Teretana.admin && sifra==Teretana.sifra)
+                this.Frame.Navigate(typeof(PocetnaUposlenik));
         }
     }
 }
