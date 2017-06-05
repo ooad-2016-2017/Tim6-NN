@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-05T16:56:04.781</Modified>
+      <Modified>2017-06-05T17:24:34.645</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\bin\x86\Debug\iGym.exe">
       <PackagePath>entrypoint\iGym.exe</PackagePath>
-      <Modified>2017-06-05T16:56:03.767</Modified>
+      <Modified>2017-06-05T17:24:33.319</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toshiba\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -508,7 +508,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\bin\x86\Debug\iGym.xr.xml">
       <PackagePath>iGym.xr.xml</PackagePath>
-      <Modified>2017-06-05T16:56:03.519</Modified>
+      <Modified>2017-06-05T17:24:32.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -533,11 +533,11 @@
     <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-05T16:56:04.499</Modified>
+      <Modified>2017-06-05T17:24:34.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toshiba\GitHub\Tim6-NN\Projekat\iGym\iGym\bin\x86\Debug\Core\iGym.exe">
       <PackagePath>iGym.exe</PackagePath>
-      <Modified>2017-06-05T16:56:04.774</Modified>
+      <Modified>2017-06-05T17:24:34.636</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -8,8 +8,15 @@
     mc:Ignorable="d">
 
     <Grid Background="Gray">
-        <RelativePanel Background="LightSlateGray" Margin="10,10,10,10">
-            <TextBlock x:Name="RegistracijaRegBroj"></TextBlock>
+        <RelativePanel Background="LightSlateGray" Margin="20,20,20,20">
+            <TextBlock x:Name="RegistracijaRegBroj" FontSize="24" Text="Unesite registracijski broj korisnika: " Margin="173,152,-223,-190" HorizontalAlignment="Left" Width="390"></TextBlock>
+            <TextBox x:Name="unosRegBrojaText" Margin="574,142,-1095,-190" TextChanged="unosRegBrojaText_TextChanged" >
+
+            </TextBox>
+            <TextBlock x:Name="prikaziIme" FontSize="22" HorizontalAlignment="Left" Height="28" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="234" Margin="861,222,-1033,-230"/>
+            <TextBlock x:Name="prikaziPrezime" FontSize="22" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Width="234" Margin="861,255,-1033,-289"/>
+            <Button x:Name="dugmePlatiClanarinu" Content="Uplati" FontSize="22" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="171" Margin="924,492,-1030,-520" Click="dugmePlatiClanarinu_Click"/>
+            <Button x:Name="dugmeNazad" FontSize="22" Content="Nazad" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="171" Margin="173,492,-253,-520" Click="dugmeNazad_Click"/>
         </RelativePanel>
 
     </Grid>

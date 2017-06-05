@@ -114,9 +114,9 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
       <RootProperty Name="TextWrapping" />
-      <RootProperty Name="Text" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="iGym.PocetnaUposlenik" />
     <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">

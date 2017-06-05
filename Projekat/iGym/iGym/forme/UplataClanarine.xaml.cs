@@ -26,5 +26,20 @@ namespace iGym
         {
             this.InitializeComponent();
         }
+
+        private void dugmeNazad_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(PocetnaUposlenik));
+        }
+
+        private void dugmePlatiClanarinu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void unosRegBrojaText_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
